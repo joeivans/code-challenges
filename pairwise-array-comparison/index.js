@@ -8,7 +8,15 @@ class Private {
   }
 }
 
+/**
+ * Performs operations on pairwise arrays.
+ */
 class PairwiseDelta {
+  /**
+   * Returns the sum of deltas between array element pairs.
+   * @param pairwiseArray
+   * @returns {number}
+   */
   getSumDelta(pairwiseArray) {
     let sum = 0;
 
@@ -19,6 +27,11 @@ class PairwiseDelta {
     return sum;
   }
 
+  /**
+   * Returns the max delta between array element pairs.
+   * @param pairwiseArray
+   * @returns {number}
+   */
   getMaxDelta(pairwiseArray) {
     let maxDelta;
 

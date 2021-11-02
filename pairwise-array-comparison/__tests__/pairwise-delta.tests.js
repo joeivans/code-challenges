@@ -1,6 +1,6 @@
 'use strict';
 
-const {PairwiseDelta} = require('../pairwise-array-comparison');
+const {PairwiseDelta} = require('../index');
 
 describe('Pairwise Delta', function () {
   let pairwiseDelta;
