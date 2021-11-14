@@ -17,6 +17,10 @@ class Set {
       this.size--;
     }
   }
+
+  contains(value) {
+    return this.set.hasOwnProperty(value);
+  }
 }
 
 module.exports = Set;

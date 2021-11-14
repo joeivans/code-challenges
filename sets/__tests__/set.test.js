@@ -46,4 +46,15 @@ describe('Set', function () {
     set.remove('world');
     expect(set.size).toEqual(0);
   });
+
+  it('should return true if set contains value', function () {
+    const set = new Set();
+
+    // not in set
+    expect(set.contains('hello')).toEqual(false);
+
+    // in set
+    set.add('hello');
+    expect(set.contains('hello')).toEqual(true);
+  });
 });
