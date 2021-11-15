@@ -4,6 +4,8 @@ const Set = require('../Set');
 
 describe('Set', function () {
   it('should start empty', function () {
+    const set = new Set();
+
     expect(set.size).toEqual(0);
   });
 
@@ -56,5 +58,34 @@ describe('Set', function () {
     // in set
     set.add('hello');
     expect(set.contains('hello')).toEqual(true);
+  });
+
+  it('should return union of sets A and B', function () {
+    // set A
+    const setA = new Set();
+    setA.add('hello');
+    setA.add('world');
+
+    // set B
+    const setB = new Set();
+    setB.add('hello');
+    setB.add('friends');
+
+    // union
+    setA.union(setB);
+
+    // result
+    expect(setA.size).toEqual(3);
+    expect(setA.values).toContain('hello');
+    expect(setA.values).toContain('world');
+    expect(setA.values).toContain('friends');
+    expect(JSON.stringify(setA.values)).toBe('["hello","world","friends"]');
+  });
+
+  it('should toString overrides as JSON.stringify(this.set)', function () {
+    const set = new Set();
+    set.add('hello');
+    set.add('world');
+    expect(`${set}`).toEqual('["hello","world"]');
   });
 });
