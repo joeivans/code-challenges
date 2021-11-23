@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "eslint \"**/*.js\" --fix",
     "start": "npm test",
     "start:node-event:intro": "node node-events/intro/index.js",
     "test": "jest --verbose --coverage",
-    "test:watch": "jest --verbose --watch",
-    "lint": "eslint \"**/*.js\"",
-    "lint:fix": "eslint \"**/*.js\" --fix"
+    "test:watch": "jest --verbose --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
     "jest": "^27.3.1"
   }
 }

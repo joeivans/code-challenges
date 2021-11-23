@@ -1,5 +1,3 @@
-'use strict';
-
 class Private {
   static visitPairwiseArray(pairwiseArray, callback) {
     for (let i = 0; i < pairwiseArray.length - 1; i++) {
@@ -36,8 +34,7 @@ class PairwiseDelta {
     let maxDelta;
 
     Private.visitPairwiseArray(pairwiseArray, (a, b) => {
-
-      let delta = Math.abs(a - b);
+      const delta = Math.abs(a - b);
 
       if (!maxDelta) {
         maxDelta = delta;
@@ -53,5 +50,5 @@ class PairwiseDelta {
 }
 
 module.exports = {
-  PairwiseDelta
+  PairwiseDelta,
 };

@@ -5,3 +5,4 @@
 * [Pairwise Array Comparison](pairwise-array-comparison)
 * [Node Events Intro](node-events/intro)
 * [Node Events Example](node-events/example)
+* [Insertion Sort](insertion-sort)

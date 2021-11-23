@@ -1,15 +1,13 @@
-'use strict';
-
 const Set = require('../Set');
 
-describe('Set', function () {
-  it('should start empty', function () {
+describe('Set', () => {
+  it('should start empty', () => {
     const set = new Set();
 
     expect(set.size).toEqual(0);
   });
 
-  it('should only add elements which are not already in the set', function () {
+  it('should only add elements which are not already in the set', () => {
     const set = new Set();
 
     // add element not in set
@@ -25,7 +23,7 @@ describe('Set', function () {
     expect(set.size).toEqual(2);
   });
 
-  it('should only remove elements which are in the set', function () {
+  it('should only remove elements which are in the set', () => {
     const set = new Set();
 
     // adds one element
@@ -41,7 +39,7 @@ describe('Set', function () {
     expect(set.size).toEqual(0);
   });
 
-  it('should nop on remove from empty set', function () {
+  it('should nop on remove from empty set', () => {
     const set = new Set();
 
     // removes from empty set
@@ -49,7 +47,7 @@ describe('Set', function () {
     expect(set.size).toEqual(0);
   });
 
-  it('should return true if set contains value', function () {
+  it('should return true if set contains value', () => {
     const set = new Set();
 
     // not in set
@@ -60,7 +58,7 @@ describe('Set', function () {
     expect(set.contains('hello')).toEqual(true);
   });
 
-  it('should return union of sets A and B', function () {
+  it('should return union of sets A and B', () => {
     // set A
     const setA = new Set();
     setA.add('hello');
@@ -82,7 +80,7 @@ describe('Set', function () {
     expect(JSON.stringify(setA.values)).toBe('["hello","world","friends"]');
   });
 
-  it('should toString overrides as JSON.stringify(this.set)', function () {
+  it('should toString overrides as JSON.stringify(this.set)', () => {
     const set = new Set();
     set.add('hello');
     set.add('world');
