@@ -1,6 +1,6 @@
 'use strict';
 
-const Set = require('../Set');
+const Set = require('../SetImpl');
 
 describe('Set', function () {
   it('should start empty', function () {

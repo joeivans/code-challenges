@@ -1,6 +1,6 @@
 'use strict';
 
-class Set {
+class SetImpl {
   #values = {};
   size = 0;
 
@@ -39,4 +39,4 @@ class Set {
   }
 }
 
-module.exports = Set;
+module.exports = SetImpl;
