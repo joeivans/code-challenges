@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @param {string[]} operations
  * @return {number}
@@ -12,10 +10,10 @@ const finalValueAfterOperations = function (operations) {
   let answer = 0;
 
   const commands = new Map();
-  commands.set('--X', answer => answer -= 1);
-  commands.set('X--', answer => answer -= 1);
-  commands.set('++X', answer => answer += 1);
-  commands.set('X++', answer => answer += 1);
+  commands.set('--X', answer => answer - 1);
+  commands.set('X--', answer => answer - 1);
+  commands.set('++X', answer => answer + 1);
+  commands.set('X++', answer => answer + 1);
 
   for (const operation of operations) {
     const command = commands.get(operation);
