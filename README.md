@@ -1,7 +1,65 @@
-# This is fun stuff I do on my own to learn more about a topic
-## Author: Joe Ivans
+<section id="top">
+    <h2 align="center"> Joe's Code Challenge Adventures </h2>
+    <p> <em>
+        Welcome to my code challenge adventures repository!
+        It mostly consists of my LeetCode adventures.
+        </em> </p>
+    <p> <em>
+        I keep this repository to practice CICD skills alongside my algorithmic
+        personal development.
+        I've solved hundreds of code challenges but only recently started
+        adding them to this repository.
+        </em> </p>
+    <p><em>
+        Every day, I generally solve one challenge or deep-dive into something.
+        I intend to keep record of that here.
+        </em></p>
+    <div align="right">
+        <em> - Joe </em>
+    </div>
+</section>
 
-# Topics
-* [Pairwise Array Comparison](pairwise-array-comparison)
-* [Node Events Intro](node-events/intro)
-* [Node Events Example](node-events/example)
+<hr />
+
+## Algorithm Challenges by Data Structure
+
+Expand each section by clicking the arrow.
+<details>
+    <summary> Arrays </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/difference-between-element-sum-and-digit-sum-of-an-array">Difference Between Element Sum and Digit Sum of an Array</a>
+    </li>
+    <li>
+        <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
+    </li>
+    <li>
+        <a href="./js/algo-challenges/pairwise-array-comparison">Pairwise Array Comparison</a>
+    </li>
+    <li>
+        <a href="./js/algo-challenges/shuffle-the-array">Shuffle the Array</a>
+    </li>
+    </ul>
+</details>
+<details>
+    <summary> Data Structure Challenges </summary>
+    <ul>
+    <li>
+        <a href="./js/ds-challenges/set">Set</a>
+    </li>
+    </ul>
+</details>
+<details>
+    <summary> Platform Challenges </summary>
+    <ul>
+        <li>
+            <a href="./js/platform-challenges/node/node-events/intro">Node Events Intro</a>
+        </li>
+    </ul>
+</details>
+<hr />
+
+<div id="footer-nav">
+    <a href="#top"> Back to top </a> |
+    <a href="https://leetcode.com/joeivans/"> Joe's LeetCode Profile </a>
+</div>
