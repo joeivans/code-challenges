@@ -34,6 +34,9 @@ Expand each section by clicking the arrow.
         <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/number-of-good-pairs">Number of Good Pairs</a>
     </li>
     <li>
