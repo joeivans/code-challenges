@@ -1,16 +1,15 @@
-'use strict';
+const MySet = require('../MySet');
 
-const Set = require('../SetImpl');
 
-describe('Set', function () {
+describe('MySet', function () {
   it('should start empty', function () {
-    const set = new Set();
+    const set = new MySet();
 
     expect(set.size).toEqual(0);
   });
 
   it('should only add elements which are not already in the set', function () {
-    const set = new Set();
+    const set = new MySet();
 
     // add element not in set
     set.add('hello');
@@ -26,7 +25,7 @@ describe('Set', function () {
   });
 
   it('should only remove elements which are in the set', function () {
-    const set = new Set();
+    const set = new MySet();
 
     // adds one element
     set.add('hello');
@@ -42,7 +41,7 @@ describe('Set', function () {
   });
 
   it('should nop on remove from empty set', function () {
-    const set = new Set();
+    const set = new MySet();
 
     // removes from empty set
     set.remove('world');
@@ -50,7 +49,7 @@ describe('Set', function () {
   });
 
   it('should return true if set contains value', function () {
-    const set = new Set();
+    const set = new MySet();
 
     // not in set
     expect(set.contains('hello')).toEqual(false);
@@ -62,12 +61,12 @@ describe('Set', function () {
 
   it('should return union of sets A and B', function () {
     // set A
-    const setA = new Set();
+    const setA = new MySet();
     setA.add('hello');
     setA.add('world');
 
     // set B
-    const setB = new Set();
+    const setB = new MySet();
     setB.add('hello');
     setB.add('friends');
 
@@ -76,14 +75,14 @@ describe('Set', function () {
 
     // result
     expect(setA.size).toEqual(3);
-    expect(setA.values).toContain('hello');
-    expect(setA.values).toContain('world');
-    expect(setA.values).toContain('friends');
-    expect(JSON.stringify(setA.values)).toBe('["hello","world","friends"]');
+    expect(setA.values()).toContain('hello');
+    expect(setA.values()).toContain('world');
+    expect(setA.values()).toContain('friends');
+    expect(setA.toString()).toBe('["hello","world","friends"]');
   });
 
   it('should toString overrides as JSON.stringify(this.set)', function () {
-    const set = new Set();
+    const set = new MySet();
     set.add('hello');
     set.add('world');
     expect(`${set}`).toEqual('["hello","world"]');
