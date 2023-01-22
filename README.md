@@ -34,6 +34,9 @@ Expand each section by clicking the arrow.
         <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
