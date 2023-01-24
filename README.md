@@ -37,6 +37,9 @@ Expand each section by clicking the arrow.
         <a href="./js/algo-challenges/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/kids-with-the-greatest-number-of-candies">Kids with the Greatest Number of Candies</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
