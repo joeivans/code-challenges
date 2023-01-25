@@ -1,32 +1,8 @@
-const MyHashing = require('./MyHashing');
+const PrivateMySet = require('./PrivateMySet');
 
-
-class PrivateMySet {
-  static doubleCapacity(oldBackingArray) {
-    const oldBackingArrayLength = oldBackingArray.length;
-    const newBackingArray = new Array(oldBackingArrayLength * 2);
-
-    for (let i = 0; i < newBackingArray.length; i++) {
-      newBackingArray[i] = new Array(0);
-    }
-
-    for (const bucket of oldBackingArray) {
-      for (const item of bucket) {
-        const hashCode = MyHashing.getHash(
-          item,
-          newBackingArray.length);
-
-        const bucket = newBackingArray[hashCode];
-        bucket.push(item);
-      }
-    }
-
-    return newBackingArray;
-  }
-}
 
 class MySet {
-  #backingArray = new Array(0);
+  #backingArray = [];
   size = 0;
 
   constructor() {
@@ -35,8 +11,11 @@ class MySet {
 
   clear() {
     this.size = 0;
-    this.#backingArray = new Array(1);
-    this.#backingArray[0] = new Array(0);
+    const defaultBackingArrayLength = 8;
+    this.#backingArray = new Array(defaultBackingArrayLength);
+    for (let i = 0; i < defaultBackingArrayLength; i++) {
+      this.#backingArray[i] = [];
+    }
   }
 
   contains(value) {
@@ -44,11 +23,7 @@ class MySet {
       return false;
     }
 
-    if (this.get(value) !== null) {
-      return true;
-    }
-
-    return false;
+    return this.get(value) !== null;
   }
 
   get(value) {
@@ -56,7 +31,7 @@ class MySet {
       return null;
     }
 
-    const hashCode = MyHashing.getHash(
+    const hashCode = PrivateMySet.MyHashingDelegate.getHash(
       value,
       this.#backingArray.length);
 
@@ -80,7 +55,7 @@ class MySet {
       this.#backingArray = PrivateMySet.doubleCapacity(this.#backingArray);
     }
 
-    const hashCode = MyHashing.getHash(
+    const hashCode = PrivateMySet.MyHashingDelegate.getHash(
       value,
       this.#backingArray.length);
 
@@ -98,12 +73,12 @@ class MySet {
       return;
     }
 
-    const hashCode = MyHashing.getHash(
+    const hashCode = PrivateMySet.MyHashingDelegate.getHash(
       value,
       this.#backingArray.length);
 
     const bucket = this.#backingArray[hashCode];
-    const newBucket = new Array(0);
+    const newBucket = [];
 
     for (const item of bucket) {
       if (item !== value) {
@@ -129,7 +104,7 @@ class MySet {
     }
   }
 
-  *values() {
+  * values() {
     for (const bucket of this.#backingArray) {
       for (const item of bucket) {
         yield item;
@@ -138,7 +113,7 @@ class MySet {
   }
 
   toString() {
-    let str = '[';
+    let str = '';
 
     for (const bucket of this.#backingArray) {
       for (const item of bucket) {
@@ -147,10 +122,10 @@ class MySet {
     }
 
     if (str[str.length - 1] === ',') {
-      return `${str.slice(0, str.length - 1)}]`;
+      return `[${str.slice(0, str.length - 1)}]`;
     }
 
-    return `${str}]`;
+    return `[${str}]`;
   }
 }
 

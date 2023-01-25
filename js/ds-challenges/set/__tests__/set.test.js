@@ -78,13 +78,34 @@ describe('MySet', function () {
     expect(setA.values()).toContain('hello');
     expect(setA.values()).toContain('world');
     expect(setA.values()).toContain('friends');
-    expect(setA.toString()).toBe('["hello","world","friends"]');
+    expect(setA.toString()).toBe('["world","friends","hello"]');
   });
 
-  it('should toString overrides as JSON.stringify(this.set)', function () {
+  it('should toString override as csv array', function () {
     const set = new MySet();
+    expect(set.toString()).toEqual('[]');
+
     set.add('hello');
     set.add('world');
-    expect(`${set}`).toEqual('["hello","world"]');
+    set.add(1234);
+    expect(`${set}`).toEqual('["world",1234,"hello"]');
+    expect(set.toString()).toEqual('["world",1234,"hello"]');
+    expect(JSON.stringify(set)).toEqual('{"size":3}');
+  });
+
+  it('should resize after initial default backing array length', function () {
+    const set = new MySet();
+    set.add('a');
+    set.add('b');
+    set.add('c');
+    set.add('d');
+    set.add('e');
+    set.add('f');
+    set.add('g');
+
+    // should resize on next add, which should change toString value due to required rehash
+    expect(set.toString()).toEqual('["a","b","c","d","e","f","g"]');
+    set.add('h');
+    expect(set.toString()).toEqual('["h","a","b","c","d","e","f","g"]');
   });
 });

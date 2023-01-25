@@ -1,19 +1,7 @@
+const PrivateMyHashing = require('./PrivateMyHashing');
+
+
 class MyHashing {
-  /**
-   * String hash function.
-   * @param {string} value
-   * @returns {number}
-   */
-  static stringHashFunction(value) {
-    let hashCode = 0;
-
-    for (let i = 0; i < value.length; i++) {
-      hashCode += value.charCodeAt(i);
-    }
-
-    return hashCode;
-  }
-
   /**
    * Get hash code of a value.
    * Backing array capacity is required to return a valid index.
@@ -27,7 +15,7 @@ class MyHashing {
     }
 
     if (typeof (value) === typeof ('')) {
-      return MyHashing.stringHashFunction(value) % backingArrayCapacity;
+      return PrivateMyHashing.stringHashFunction(value) % backingArrayCapacity;
     }
 
     return Math.abs(Math.trunc(value)) % backingArrayCapacity;
