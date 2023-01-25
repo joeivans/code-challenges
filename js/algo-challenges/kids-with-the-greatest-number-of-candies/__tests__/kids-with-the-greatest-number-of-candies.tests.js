@@ -19,4 +19,10 @@ describe('Kids With the Greatest Number of Candies', function () {
 
     expect(result).toStrictEqual([true, false, true]);
   });
+
+  it(`([1, 2], 0) => [false, true]`, function () {
+    const result = kidsWithCandies([1, 2], 0);
+
+    expect(result).toStrictEqual([false, true]);
+  });
 });
