@@ -63,13 +63,18 @@ Expand each section by clicking the arrow.
     </ul>
 </details>
 <details>
-    <summary> Data Structure Challenges </summary>
+    <summary> Sets </summary>
     <ul>
     <li>
-        <a href="./js/ds-challenges/set">Set</a>
+        <a href="./js/ds-challenges/design-a-set-class">Design a Set Class</a>
     </li>
     </ul>
 </details>
+
+<hr />
+
+## Other Challenges
+
 <details>
     <summary> Platform Challenges </summary>
     <ul>
