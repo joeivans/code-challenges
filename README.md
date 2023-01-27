@@ -28,6 +28,9 @@ Expand each section by clicking the arrow.
     <summary> Arrays </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/decompress-run-length-encoded-list">Decompress Run-Length Encoded List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/difference-between-element-sum-and-digit-sum-of-an-array">Difference Between Element Sum and Digit Sum of an Array</a>
     </li>
     <li>
