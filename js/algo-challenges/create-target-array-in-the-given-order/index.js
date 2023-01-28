@@ -26,9 +26,11 @@ const createTargetArray = function (nums, index) {
     const node = { value, next: null};
     let h = head;
 
-    for (let j = 0; j < i; j++) h = h.next;
+    for (let j = 0; j < i; j++) {
+      h = h.next;
+    }
 
-    let temp = h.next;
+    const temp = h.next;
     h.next = node;
     node.next = temp;
   }
