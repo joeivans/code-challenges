@@ -2,17 +2,23 @@
     <h2 align="center"> Joe's Code Challenge Adventures </h2>
     <p> <em>
         Welcome to my code challenge adventures repository!
-        It mostly consists of my LeetCode adventures.
+        Every day, I generally solve one algorithm whiteboard challenge or
+        deep-dive into something else that's fun.
         </em> </p>
     <p> <em>
         I keep this repository to practice CICD skills alongside my algorithmic
         personal development.
-        I've solved hundreds of code challenges but only recently started
-        adding them to this repository.
+        I've solved hundreds of code challenges from college, job interviews and
+        challenge sites around the internet.
+        I've only recently started keeping a repository.
         </em> </p>
     <p><em>
-        Every day, I generally solve one challenge or deep-dive into something.
-        I intend to keep record of that here.
+        My language of choice here is JavaScript since it's extremely portable.
+        I keep implementations easy to read and avoid using built-in language
+        features as much as possible to make language translation easier.
+        </em></p>
+    <p><em>
+        Enjoy!
         </em></p>
     <div align="right">
         <em> - Joe </em>
@@ -29,6 +35,9 @@ Expand each section by clicking the arrow.
     <ul>
     <li>
         <a href="./js/algo-challenges/create-target-array-in-the-given-order">Create Target Array in the Given Order</a>
+    </li>
+    <li>
+        <a href="./js/algo-challenges/decode-xored-array">Decode XORed Array</a>
     </li>
     <li>
         <a href="./js/algo-challenges/decompress-run-length-encoded-list">Decompress Run-Length Encoded List</a>
