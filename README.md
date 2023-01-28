@@ -28,6 +28,9 @@ Expand each section by clicking the arrow.
     <summary> Arrays </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/create-target-array-in-the-given-order">Create Target Array in the Given Order</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/decompress-run-length-encoded-list">Decompress Run-Length Encoded List</a>
     </li>
     <li>
