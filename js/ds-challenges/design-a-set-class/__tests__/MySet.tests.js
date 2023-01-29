@@ -102,10 +102,11 @@ describe('MySet', function () {
     set.add('e');
     set.add('f');
     set.add('g');
+    set.add('h');
 
     // should resize on next add, which should change toString value due to required rehash
-    expect(set.toString()).toEqual('["a","b","c","d","e","f","g"]');
-    set.add('h');
     expect(set.toString()).toEqual('["h","a","b","c","d","e","f","g"]');
+    set.add('i');
+    expect(set.toString()).toEqual('["a","b","c","d","e","f","g","h","i"]');
   });
 });
