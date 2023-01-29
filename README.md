@@ -75,6 +75,14 @@ Expand each section by clicking the arrow.
     </ul>
 </details>
 <details>
+    <summary> Strings </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/remove-vowels-from-a-string">Remove Vowels from a String</a>
+    </li>
+    </ul>
+</details>
+<details>
     <summary> Sets </summary>
     <ul>
     <li>
@@ -87,6 +95,7 @@ Expand each section by clicking the arrow.
 
 ## Other Challenges
 
+Expand each section by clicking the arrow.
 <details>
     <summary> Platform Challenges </summary>
     <ul>
