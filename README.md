@@ -78,6 +78,9 @@ Expand each section by clicking the arrow.
     <summary> Strings </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/defanging-an-ip-address">Defanging an IP Address</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-vowels-from-a-string">Remove Vowels from a String</a>
     </li>
     </ul>
