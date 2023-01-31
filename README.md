@@ -78,6 +78,9 @@ Expand each section by clicking the arrow.
     <summary> Strings </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/add-binary">Add Binary</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/defanging-an-ip-address">Defanging an IP Address</a>
     </li>
     <li>
