@@ -29,8 +29,7 @@
 
 ## Algorithm Challenges by Data Structure
 
-Expand each section by clicking the arrow.
-<details>
+<details open>
     <summary> Arrays </summary>
     <ul>
     <li>
@@ -74,6 +73,22 @@ Expand each section by clicking the arrow.
     </li>
     </ul>
 </details>
+<details open>
+    <summary> Linked Lists </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/swap-nodes-in-pairs">Swap Nodes in Pairs</a>
+    </li>
+    </ul>
+</details>
+<details open>
+    <summary> Sets </summary>
+    <ul>
+    <li>
+        <a href="./js/ds-challenges/design-a-set-class">Design a Set Class</a>
+    </li>
+    </ul>
+</details>
 <details>
     <summary> Strings </summary>
     <ul>
@@ -88,21 +103,12 @@ Expand each section by clicking the arrow.
     </li>
     </ul>
 </details>
-<details>
-    <summary> Sets </summary>
-    <ul>
-    <li>
-        <a href="./js/ds-challenges/design-a-set-class">Design a Set Class</a>
-    </li>
-    </ul>
-</details>
 
 <hr />
 
 ## Other Challenges
 
-Expand each section by clicking the arrow.
-<details>
+<details open>
     <summary> Platform Challenges </summary>
     <ul>
         <li>
