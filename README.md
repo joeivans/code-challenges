@@ -77,6 +77,9 @@
     <summary> Linked Lists </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/reverse-linked-list">Reverse Linked List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/swap-nodes-in-pairs">Swap Nodes in Pairs</a>
     </li>
     </ul>
@@ -89,7 +92,7 @@
     </li>
     </ul>
 </details>
-<details>
+<details open>
     <summary> Strings </summary>
     <ul>
     <li>
