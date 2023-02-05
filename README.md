@@ -105,6 +105,9 @@
         <a href="./js/algo-challenges/remove-vowels-from-a-string">Remove Vowels from a String</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/sentence-similarity">Sentence Similarity</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/verifying-an-alien-dictionary">Verifying an Alien Dictionary</a>
     </li>
     </ul>
