@@ -83,6 +83,9 @@
         <a href="./js/algo-challenges/reverse-linked-list">Reverse Linked List</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/reverse-linked-list-ii">Reverse Linked List II</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/swap-nodes-in-pairs">Swap Nodes in Pairs</a>
     </li>
     </ul>
