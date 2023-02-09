@@ -77,6 +77,9 @@
     <summary> Linked Lists </summary>
     <ul>
     <li>
+        <a href="./js/ds-challenges/design-linked-list">Design Linked List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/maximum-twin-sum-of-a-linked-list">Maximum Twin Sum of a Linked List</a>
     </li>
     <li>
