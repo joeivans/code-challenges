@@ -74,6 +74,9 @@
     <li>
         <a href="./js/algo-challenges/shuffle-the-array">Shuffle the Array</a>
     </li>
+    <li>
+        <a href="./js/algo-challenges/spiral-matrix">Spiral Matrix</a>
+    </li>
     </ul>
 </details>
 <details open>
