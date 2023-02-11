@@ -72,6 +72,9 @@
         <a href="./js/algo-challenges/pairwise-array-comparison">Pairwise Array Comparison</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/pascals-triangle">Pascal's Triangle</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/shuffle-the-array">Shuffle the Array</a>
     </li>
     <li>
