@@ -48,6 +48,9 @@
         <a href="./js/algo-challenges/difference-between-element-sum-and-digit-sum-of-an-array">Difference Between Element Sum and Digit Sum of an Array</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/duplicate-zeros">Duplicate Zeros</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
     </li>
     <li>
