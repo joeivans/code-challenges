@@ -81,6 +81,9 @@
         <a href="./js/algo-challenges/pascals-triangle">Pascal's Triangle</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/remove-element">Remove Element</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/shuffle-the-array">Shuffle the Array</a>
     </li>
     <li>
