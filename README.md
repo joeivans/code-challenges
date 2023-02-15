@@ -86,6 +86,9 @@
     <li>
         <a href="./js/algo-challenges/spiral-matrix">Spiral Matrix</a>
     </li>
+    <li>
+        <a href="./js/algo-challenges/wiggle-sort">Wiggle Sort</a>
+    </li>
     </ul>
 </details>
 <details open>
