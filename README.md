@@ -138,6 +138,9 @@
         <a href="./js/algo-challenges/remove-vowels-from-a-string">Remove Vowels from a String</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/reverse-only-letters">Reverse Only Letters</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/sentence-similarity">Sentence Similarity</a>
     </li>
     <li>
