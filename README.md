@@ -72,6 +72,9 @@
         <a href="./js/algo-challenges/maximum-number-of-words-found-in-sentences">Maximum Number of Words Found in Sentences</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/move-zeros">Move Zeros</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/number-of-good-pairs">Number of Good Pairs</a>
     </li>
     <li>
