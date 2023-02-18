@@ -144,6 +144,9 @@
         <a href="./js/algo-challenges/reverse-only-letters">Reverse Only Letters</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/reverse-prefix-of-word">Reverse Prefix of Word</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/sentence-similarity">Sentence Similarity</a>
     </li>
     <li>
