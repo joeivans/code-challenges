@@ -118,6 +118,14 @@
     </ul>
 </details>
 <details open>
+    <summary> Maps </summary>
+    <ul>
+    <li>
+        <a href="./js/ds-challenges/two-sum-iii-data-structure-design">Two Sum III - Data Structure Design</a>
+    </li>
+    </ul>
+</details>
+<details open>
     <summary> Sets </summary>
     <ul>
     <li>
