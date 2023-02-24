@@ -155,6 +155,9 @@
         <a href="./js/algo-challenges/longest-common-prefix">Longest Common Prefix</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/maximum-number-of-vowels-in-a-substring-of-given-length">Maximum Number of Vowels in a Substring of Given Length</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/path-crossing">Path Crossing</a>
     </li>
     <li>
