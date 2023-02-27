@@ -60,6 +60,9 @@
         <a href="./js/algo-challenges/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-the-highest-altitude">Find the Highest Altitude</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/find-the-index-of-the-first-occurrence-in-a-string">Find the Index of the First Occurrence in a String</a>
     </li>
     <li>
