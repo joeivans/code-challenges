@@ -176,6 +176,9 @@
         <a href="./js/algo-challenges/path-crossing">Path Crossing</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/permutation-in-string">Permutation in String</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-vowels-from-a-string">Remove Vowels from a String</a>
     </li>
     <li>
