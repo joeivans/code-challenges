@@ -191,6 +191,9 @@
         <a href="./js/algo-challenges/sentence-similarity">Sentence Similarity</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/valid-anagram">Valid Anagram</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/verifying-an-alien-dictionary">Verifying an Alien Dictionary</a>
     </li>
     </ul>
