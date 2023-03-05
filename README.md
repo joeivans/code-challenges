@@ -108,6 +108,9 @@
         <a href="./js/algo-challenges/spiral-matrix">Spiral Matrix</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/sum-of-unique-elements">Sum of Unique Elements</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/valid-mountain-array">Valid Mountain Array</a>
     </li>
     <li>
