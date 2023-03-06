@@ -176,6 +176,9 @@
         <a href="./js/algo-challenges/longest-common-prefix">Longest Common Prefix</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/longest-substring-with-at-most-k-distinct-characters">Longest Substring with At Most K Distinct Characters</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/maximum-number-of-vowels-in-a-substring-of-given-length">Maximum Number of Vowels in a Substring of Given Length</a>
     </li>
     <li>
