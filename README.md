@@ -139,6 +139,14 @@
     </ul>
 </details>
 <details open>
+    <summary> Bit Manipulation </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/single-number">Single Number</a>
+    </li>
+    </ul>
+</details>
+<details open>
     <summary> Maps </summary>
     <ul>
     <li>
