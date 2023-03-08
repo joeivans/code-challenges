@@ -90,6 +90,9 @@
         <a href="./js/algo-challenges/number-of-good-pairs">Number of Good Pairs</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/number-of-ways-to-split-array">Number of Ways to Split Array</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/pairwise-array-comparison">Pairwise Array Comparison</a>
     </li>
     <li>
@@ -119,6 +122,14 @@
     </ul>
 </details>
 <details open>
+    <summary> Bit Manipulation </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/single-number">Single Number</a>
+    </li>
+    </ul>
+</details>
+<details open>
     <summary> Linked Lists </summary>
     <ul>
     <li>
@@ -135,14 +146,6 @@
     </li>
     <li>
         <a href="./js/algo-challenges/swap-nodes-in-pairs">Swap Nodes in Pairs</a>
-    </li>
-    </ul>
-</details>
-<details open>
-    <summary> Bit Manipulation </summary>
-    <ul>
-    <li>
-        <a href="./js/algo-challenges/single-number">Single Number</a>
     </li>
     </ul>
 </details>
