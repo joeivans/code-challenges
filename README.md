@@ -181,6 +181,9 @@
         <a href="./js/algo-challenges/find-all-anagrams-in-string">Find All Anagrams in a String</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-common-characters">Find Common Characters</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/get-equal-substrings-within-budget">Get Equal Substrings Within Budget</a>
     </li>
     <li>
