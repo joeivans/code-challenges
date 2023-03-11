@@ -99,6 +99,9 @@
         <a href="./js/algo-challenges/pascals-triangle">Pascal's Triangle</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/product-of-array-except-self">Product of Array Except Self</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-element">Remove Element</a>
     </li>
     <li>
