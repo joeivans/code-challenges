@@ -75,6 +75,9 @@
         <a href="./js/algo-challenges/kids-with-the-greatest-number-of-candies">Kids with the Greatest Number of Candies</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/left-and-right-sum-differences">Left and Right Sum Differences</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
