@@ -66,7 +66,7 @@
         <a href="./js/algo-challenges/find-the-highest-altitude">Find the Highest Altitude</a>
     </li>
     <li>
-        <a href="./js/algo-challenges/find-the-index-of-the-first-occurrence-in-a-string">Find the Index of the First Occurrence in a String</a>
+        <a href="./js/algo-challenges/find-the-middle-index-in-array">Find the Middle Index in Array</a>
     </li>
     <li>
         <a href="./js/algo-challenges/how-many-numbers-are-smaller-than-the-current-number">How Many Numbers are Smaller than the Current Number</a>
@@ -194,6 +194,9 @@
     </li>
     <li>
         <a href="./js/algo-challenges/find-common-characters">Find Common Characters</a>
+    </li>
+    <li>
+        <a href="./js/algo-challenges/find-the-index-of-the-first-occurrence-in-a-string">Find the Index of the First Occurrence in a String</a>
     </li>
     <li>
         <a href="./js/algo-challenges/get-equal-substrings-within-budget">Get Equal Substrings Within Budget</a>
