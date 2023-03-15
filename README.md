@@ -214,6 +214,9 @@
         <a href="./js/algo-challenges/path-crossing">Path Crossing</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/palindrome-permutation">Palindrome Permutation</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/permutation-in-string">Permutation in String</a>
     </li>
     <li>
