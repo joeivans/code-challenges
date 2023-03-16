@@ -87,6 +87,9 @@
         <a href="./js/algo-challenges/maximum-subarray">Maximum Subarray</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/minimum-consecutive-cards-to-pick-up">Minimum Consecutive Cards to Pick Up</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/move-zeros">Move Zeros</a>
     </li>
     <li>
