@@ -9,8 +9,7 @@ const minimumCardPickup = function (cards) {
 //
 // NOTE:
 //  I did not use a more elegant pattern on this because I wanted to
-//  try it by hand first in this attempt. This is a basic sliding window
-//  with an exact constraint but not using that specific map pattern.
+//  try it by hand first in this attempt.
 
   let minWindowSize = -1;
   const windowMap = new Map();
