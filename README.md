@@ -75,6 +75,9 @@
         <a href="./js/algo-challenges/how-many-numbers-are-smaller-than-the-current-number">How Many Numbers are Smaller than the Current Number</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/intersection-of-multiple-arrays">Intersection of Multiple Arrays</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/kids-with-the-greatest-number-of-candies">Kids with the Greatest Number of Candies</a>
     </li>
     <li>
