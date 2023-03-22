@@ -63,6 +63,9 @@
         <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-lucky-integer-in-an-array">Find Lucky Integer in an Array</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a>
     </li>
     <li>
