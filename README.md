@@ -256,6 +256,9 @@
         <a href="./js/algo-challenges/sentence-similarity">Sentence Similarity</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/sort-characters-by-frequency">Sort Characters By Frequency</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/valid-anagram">Valid Anagram</a>
     </li>
     <li>
