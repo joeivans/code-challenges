@@ -36,6 +36,9 @@
         <a href="./js/algo-challenges/array-partition">Array Partition</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/binary-subarrays-with-sum">Binary Subarrays With Sum</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/check-if-n-and-its-double-exist">Check If N and its Double Exist</a>
     </li>
     <li>
