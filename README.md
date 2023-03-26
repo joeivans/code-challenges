@@ -208,6 +208,9 @@
         <a href="./js/algo-challenges/check-if-all-characters-have-equal-number-of-occurrences">Check if All Characters Have Equal Number of Occurrences</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/decode-the-message">Decode the Message</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/defanging-an-ip-address">Defanging an IP Address</a>
     </li>
     <li>
