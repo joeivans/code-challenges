@@ -229,6 +229,9 @@
         <a href="./js/algo-challenges/get-equal-substrings-within-budget">Get Equal Substrings Within Budget</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/integer-to-roman">Integer to Roman</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/longest-common-prefix">Longest Common Prefix</a>
     </li>
     <li>
