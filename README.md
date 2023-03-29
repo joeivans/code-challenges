@@ -66,6 +66,9 @@
         <a href="./js/algo-challenges/final-value-of-variable-after-performing-operations">Final Value of Variable After Performing Operations</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-anagram-mappings">Find Anagram Mappings</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/find-lucky-integer-in-an-array">Find Lucky Integer in an Array</a>
     </li>
     <li>
