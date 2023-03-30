@@ -217,6 +217,9 @@
         <a href="./js/algo-challenges/defanging-an-ip-address">Defanging an IP Address</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/design-an-ordered-stream">Design an Ordered Stream</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/destination-city">Destination City</a>
     </li>
     <li>
