@@ -189,6 +189,9 @@
     <summary> Maps </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/lru-cache">LRU Cache</a>
+    </li>
+    <li>
         <a href="./js/ds-challenges/two-sum-iii-data-structure-design">Two Sum III - Data Structure Design</a>
     </li>
     </ul>
