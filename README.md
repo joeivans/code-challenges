@@ -214,6 +214,9 @@
         <a href="./js/algo-challenges/check-if-all-characters-have-equal-number-of-occurrences">Check if All Characters Have Equal Number of Occurrences</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/custom-sort-string">Custom Sort String</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/decode-the-message">Decode the Message</a>
     </li>
     <li>
