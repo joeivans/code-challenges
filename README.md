@@ -229,6 +229,9 @@
         <a href="./js/algo-challenges/destination-city">Destination City</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/determine-if-two-strings-are-close">Determine if Two Strings Are Close</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/find-all-anagrams-in-string">Find All Anagrams in a String</a>
     </li>
     <li>
