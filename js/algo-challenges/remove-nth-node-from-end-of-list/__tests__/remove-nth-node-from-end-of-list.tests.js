@@ -1,25 +1,5 @@
 const {removeNthFromEnd} = require('../index');
-
-const toList = function (arr) {
-  if (arr.length === 0) {
-    return null;
-  }
-
-  const sentinel = {};
-
-  let curr = sentinel;
-  for (const val of arr) {
-    const newNode = {
-      val,
-      next: null
-    };
-
-    curr.next = newNode;
-    curr = curr.next;
-  }
-
-  return sentinel.next;
-};
+const {toList} = require('../../../test-utilities/linked-lists');
 
 describe('Remove Nth Node From End of List', function () {
   it(`([1, 2, 3, 4, 5], 2) => [1, 2, 3, 5]`, function () {

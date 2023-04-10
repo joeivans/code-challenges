@@ -1,3 +1,15 @@
+class ListNode {
+  constructor(val, next) {
+    this.val = val ? val : null;
+    this.next = next ? next : null;
+  }
+}
+
+/**
+ * Returns a list from an array.
+ * @param {*[]} arr
+ * @return {ListNode}
+ */
 const toList = function (arr) {
   if (!arr || arr.length === 0) {
     return null;
@@ -23,6 +35,28 @@ const toList = function (arr) {
   return head;
 };
 
+/**
+ * Returns an array from a list.
+ * @param {ListNode} list
+ * @return {*[]}
+ */
+const toArray = function (list) {
+  if (!list) {
+    return [];
+  }
+
+  const arr = [];
+
+  while (list) {
+    arr.push(list.val);
+    list = list.next;
+  }
+
+  return arr;
+};
+
 module.exports = {
-  toList
+  toList,
+  toArray,
+  ListNode
 };
