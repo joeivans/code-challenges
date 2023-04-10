@@ -1,28 +1,5 @@
 const {deleteDuplicates} = require('../index');
-
-const toList = function (arr) {
-  if (!arr || arr.length === 0) {
-    return null;
-  }
-
-  const head = {
-    val: arr[0],
-    next: null
-  };
-
-  let curr = head;
-  for (let i = 1; i < arr.length; i++) {
-    const newNode = {
-      val: arr[i],
-      next: null
-    };
-
-    curr.next = newNode;
-    curr = curr.next;
-  }
-
-  return head;
-};
+const {toList} = require('../../../test-utilities/linked-lists');
 
 describe('Delete Duplicates from Sorted List', function () {
   it(`[1, 1, 2] => [1, 2]`, function () {
