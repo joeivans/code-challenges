@@ -187,6 +187,9 @@
         <a href="./js/algo-challenges/maximum-twin-sum-of-a-linked-list">Maximum Twin Sum of a Linked List</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/palindrome-linked-list">Palindrome Linked List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-duplicates-from-sorted-list">Remove Duplicates from Sorted List</a>
     </li>
     <li>
