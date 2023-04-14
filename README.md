@@ -205,6 +205,9 @@
         <a href="./js/algo-challenges/reverse-linked-list-ii">Reverse Linked List II</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/remove-linked-list-elements">Remove Linked List Elements</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/swap-nodes-in-pairs">Swap Nodes in Pairs</a>
     </li>
     </ul>
