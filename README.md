@@ -175,6 +175,9 @@
         <a href="./js/algo-challenges/delete-n-nodes-after-m-nodes-of-a-linked-list">Delete N Nodes After M Nodes of a Linked List</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/delete-node-in-a-linked-list">Delete Node in a Linked List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/delete-the-middle-node-of-a-linked-list">Delete the Middle Node of a Linked List</a>
     </li>
     <li>
