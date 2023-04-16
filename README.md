@@ -193,6 +193,9 @@
         <a href="./js/algo-challenges/palindrome-linked-list">Palindrome Linked List</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/print-immutable-linked-list-in-reverse-recursive">Print Immutable Linked List in Reverse - Recursive</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-duplicates-from-sorted-list">Remove Duplicates from Sorted List</a>
     </li>
     <li>
