@@ -1,7 +1,23 @@
 class ListNode {
   constructor(val, next) {
-    this.val = val ? val : null;
+    this.val = val !== null ? val : null;
     this.next = next ? next : null;
+  }
+}
+
+class ImmutableListNode {
+  constructor(val, next, strOutFunc) {
+    this.val = val !== null ? val : null;
+    this.next = next ? next : null;
+    this.strOutFunc = strOutFunc;
+  }
+
+  printValue() {
+    this.strOutFunc(`${this.val}/n`);
+  }
+
+  getNext() {
+    return this.next;
   }
 }
 
@@ -15,18 +31,31 @@ const toList = function (arr) {
     return null;
   }
 
-  const head = {
-    val: arr[0],
-    next: null
-  };
+  const head = new ListNode(arr[0], null);
 
   let curr = head;
 
   for (let i = 1; i < arr.length; i++) {
-    const newNode = {
-      val: arr[i],
-      next: null
-    };
+    const newNode = new ListNode(arr[i], null);
+
+    curr.next = newNode;
+    curr = curr.next;
+  }
+
+  return head;
+};
+
+const toImmutableList = function (arr, strOutFunc) {
+  if (!arr || arr.length === 0) {
+    return null;
+  }
+
+  const head = new ImmutableListNode(arr[0], null, strOutFunc);
+
+  let curr = head;
+
+  for (let i = 1; i < arr.length; i++) {
+    const newNode = new ImmutableListNode(arr[i], null, strOutFunc);
 
     curr.next = newNode;
     curr = curr.next;
@@ -57,6 +86,8 @@ const toArray = function (list) {
 
 module.exports = {
   toList,
+  toImmutableList,
   toArray,
-  ListNode
+  ListNode,
+  ImmutableListNode
 };
