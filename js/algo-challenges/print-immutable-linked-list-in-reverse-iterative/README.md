@@ -1,4 +1,4 @@
-# 1265. Print Immutable Linked List in Reverse - Recursive
+# 1265. Print Immutable Linked List in Reverse - Iterative
 - Medium
 - Facebook
 
