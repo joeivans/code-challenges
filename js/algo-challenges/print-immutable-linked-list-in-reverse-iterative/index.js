@@ -19,9 +19,9 @@
  * @return {void}
  */
 const printLinkedListInReverse = function (head) {
-// O(n) Time | O(1) Space
+// O(n^2) Time | O(1) Space
 //  n = number of nodes in head
-//  Algorithm scales linearly with input list size.
+//  Algorithm scales quadratically with input list size.
 
   const len = getListLength(head);
 
