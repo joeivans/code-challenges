@@ -169,6 +169,9 @@
     <summary> Linked Lists </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/add-two-numbers">Add Two Numbers</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/convert-binary-number-in-a-linked-list-to-integer">Convert Binary Number in a Linked List to Integer</a>
     </li>
     <li>
