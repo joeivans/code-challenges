@@ -190,6 +190,9 @@
         <a href="./js/algo-challenges/intersection-of-two-linked-lists">Intersection of Two Linked Lists</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/linked-list-cycle-ii">Linked List Cycle II</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/maximum-twin-sum-of-a-linked-list">Maximum Twin Sum of a Linked List</a>
     </li>
     <li>
