@@ -28,6 +28,8 @@ Output: []
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 2][whiteboard-image-2]
 
 <!-- Refs -->
 [whiteboard-image]: whiteboard.jpg
+[whiteboard-image-2]: whiteboard2.jpg
