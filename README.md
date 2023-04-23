@@ -250,6 +250,14 @@
     </ul>
 </details>
 <details open>
+    <summary> Stacks </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/valid-parentheses">Valid Parentheses</a>
+    </li>
+    </ul>
+</details>
+<details open>
     <summary> Strings </summary>
     <ul>
     <li>
