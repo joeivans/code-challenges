@@ -253,6 +253,9 @@
     <summary> Stacks </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/backspace-string-compare">Backspace String Compare</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-all-adjacent-duplicates-in-string">Remove All Adjacent Duplicates In String</a>
     </li>
     <li>
