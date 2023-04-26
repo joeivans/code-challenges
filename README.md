@@ -376,6 +376,18 @@
 </details>
 <hr />
 
+## Learning Reinforcement
+
+<details open>
+    <summary> Linked Lists </summary>
+    <ul>
+        <li>
+            <a href="./js/learning/linked-lists/remove-linked-list-tail">Remove Linked List Tail</a>
+        </li>
+    </ul>
+</details>
+<hr />
+
 <div id="footer-nav">
     <a href="#top"> Back to top </a> |
     <a href="https://leetcode.com/joeivans/"> Joe's LeetCode Profile </a>
