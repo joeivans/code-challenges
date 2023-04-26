@@ -259,6 +259,9 @@
         <a href="./js/algo-challenges/remove-all-adjacent-duplicates-in-string">Remove All Adjacent Duplicates In String</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/simplify-path">Simplify Path</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/valid-parentheses">Valid Parentheses</a>
     </li>
     </ul>
