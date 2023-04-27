@@ -386,6 +386,14 @@
         </li>
     </ul>
 </details>
+<details open>
+    <summary> Stacks </summary>
+    <ul>
+        <li>
+            <a href="./js/learning/stacks/implement-undo-functionality">Implement Undo Functionality</a>
+        </li>
+    </ul>
+</details>
 <hr />
 
 <div id="footer-nav">
