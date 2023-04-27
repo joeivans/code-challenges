@@ -382,7 +382,7 @@
     <summary> Linked Lists </summary>
     <ul>
         <li>
-            <a href="./js/learning/linked-lists/remove-linked-list-tail">Remove Linked List Tail</a>
+            <a href="./js/learning/dsa/linked-lists/remove-linked-list-tail">Remove Linked List Tail</a>
         </li>
     </ul>
 </details>
@@ -390,7 +390,15 @@
     <summary> Stacks </summary>
     <ul>
         <li>
-            <a href="./js/learning/stacks/implement-undo-functionality">Implement Undo Functionality</a>
+            <a href="./js/learning/dsa/stacks/implement-undo-functionality">Implement Undo Functionality</a>
+        </li>
+    </ul>
+</details>
+<details open>
+    <summary>CodingBat</summary>
+    <ul>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-factorial">Recursion-1 Factorial</a>
         </li>
     </ul>
 </details>
