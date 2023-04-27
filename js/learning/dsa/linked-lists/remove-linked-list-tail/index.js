@@ -1,4 +1,4 @@
-const {ListNode} = require('../../../test-utilities/linked-lists');
+const {ListNode} = require('../../../../test-utilities/linked-lists');
 
 /**
  * @param {ListNode} head

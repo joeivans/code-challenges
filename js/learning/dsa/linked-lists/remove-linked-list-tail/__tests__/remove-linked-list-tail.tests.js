@@ -1,5 +1,5 @@
 const {removeLinkedListTail} = require('../index');
-const {toList} = require('../../../../test-utilities/linked-lists');
+const {toList} = require('../../../../../test-utilities/linked-lists');
 
 describe('Remove Linked List Tail', function () {
   it(`[1, 2, 3] => [1, 2]`, function () {
