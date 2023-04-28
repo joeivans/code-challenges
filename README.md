@@ -400,6 +400,9 @@
         <li>
             <a href="./js/learning/codingbat/recursion-1-factorial">Recursion-1 Factorial</a>
         </li>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-bunny-ears">Recursion-1 Bunny Ears</a>
+        </li>
     </ul>
 </details>
 <hr />
