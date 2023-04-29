@@ -406,6 +406,9 @@
         <li>
             <a href="./js/learning/codingbat/recursion-1-bunny-ears">Recursion-1 Bunny Ears</a>
         </li>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-fibonacci">Recursion-1 Fibonacci</a>
+        </li>
     </ul>
 </details>
 <hr />
