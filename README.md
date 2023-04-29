@@ -245,6 +245,14 @@
     </ul>
 </details>
 <details open>
+    <summary> Queues </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/number-of-recent-calls">Number of Recent Calls</a>
+    </li>
+    </ul>
+</details>
+<details open>
     <summary> Sets </summary>
     <ul>
     <li>
