@@ -13,7 +13,7 @@ describe('MyLinkedList', function () {
 
     list.addAtHead(123);
     expect(list.head.next.val).toEqual(123);
-    expect(list.head.next.next).toEqual(list.tail);
+    expect(list.head.next.next).toEqual(null);
   });
 
   it('should return the indexth list node, -1 otherwise', function () {
@@ -50,18 +50,18 @@ describe('MyLinkedList', function () {
     expect(list.head.next.val).toEqual(123);
     expect(list.head.next.next.val).toEqual(0);
     expect(list.head.next.next.next.val).toEqual(456);
-    expect(list.head.next.next.next.next).toEqual(list.tail);
+    expect(list.head.next.next.next.next).toEqual(null);
   });
 
   it('should delete indexth node from list if index is valid', function () {
     const list = new MyLinkedList();
 
     list.deleteAtIndex(0);
-    expect(list.head.next).toEqual(list.tail);
+    expect(list.head.next).toEqual(null);
 
     list.addAtHead(123);
     list.deleteAtIndex(0);
-    expect(list.head.next).toEqual(list.tail);
+    expect(list.head.next).toEqual(null);
 
     list.addAtIndex(0, 123);
     list.addAtIndex(1, 0);
@@ -69,6 +69,6 @@ describe('MyLinkedList', function () {
     list.deleteAtIndex(1);
     expect(list.head.next.val).toEqual(123);
     expect(list.head.next.next.val).toEqual(456);
-    expect(list.head.next.next.next).toEqual(list.tail);
+    expect(list.head.next.next.next).toEqual(null);
   });
 });
