@@ -1,10 +1,7 @@
 class MyLinkedList {
   constructor() {
     this.head = {next: null};
-    this.tail = {next: null};
     this.length = 0;
-
-    this.head.next = this.tail;
   }
 
   /**
@@ -44,7 +41,7 @@ class MyLinkedList {
     }
 
     let curr = this.head.next;
-    while (curr.next !== this.tail) {
+    while (curr.next !== null) {
       curr = curr.next;
     }
 
