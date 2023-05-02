@@ -5,6 +5,14 @@ class ListNode {
   }
 }
 
+class DLListNode {
+  constructor(val, next, prev) {
+    this.val = val !== null ? val : null;
+    this.next = next ? next : null;
+    this.prev = prev ? prev : null;
+  }
+}
+
 class ImmutableListNode {
   constructor(val, next, strOutFunc) {
     this.val = val !== null ? val : null;
@@ -89,5 +97,6 @@ module.exports = {
   toImmutableList,
   toArray,
   ListNode,
+  DLListNode,
   ImmutableListNode
 };
