@@ -1,4 +1,4 @@
-const MyLinkedList = require('../MyLinkedList');
+const {MyLinkedList} = require('../MyLinkedList');
 
 describe('MyLinkedList', function () {
   it('should construct new object', function () {
