@@ -13,18 +13,7 @@ class MyDoublyLinkedList {
     this.length = 0;
   }
 
-  /**
-   * @param {number} index
-   * @return {number}
-   */
-  get(index) {
-    if (this.length < 1) {
-      return -1;
-    }
-    if (index < 0 || index >= this.length) {
-      return -1;
-    }
-
+  #getNode(index) {
     let curr = this.head.next;
     if (index < this.length / 2) {
       // first half
@@ -39,7 +28,22 @@ class MyDoublyLinkedList {
       }
     }
 
-    return curr.val;
+    return curr;
+  }
+
+  /**
+   * @param {number} index
+   * @return {number}
+   */
+  get(index) {
+    if (this.length < 1) {
+      return -1;
+    }
+    if (index < 0 || index >= this.length) {
+      return -1;
+    }
+
+    return this.#getNode(index).val;
   }
 
   /**
