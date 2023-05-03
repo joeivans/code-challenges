@@ -13,8 +13,13 @@ class MyDoublyLinkedList {
     this.length = 0;
   }
 
+  /**
+   * @param {number} index
+   * @return {DLListNode}
+   */
   #getNode(index) {
     let curr = this.head.next;
+
     if (index < this.length / 2) {
       // first half
       for (let i = 0; i < index; i++) {
