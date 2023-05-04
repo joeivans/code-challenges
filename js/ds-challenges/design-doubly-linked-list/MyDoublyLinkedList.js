@@ -15,17 +15,11 @@ class MyDoublyLinkedList {
 
   /**
    * @param {number} index
-   * @return {number}
+   * @return {DLListNode}
    */
-  get(index) {
-    if (this.length < 1) {
-      return -1;
-    }
-    if (index < 0 || index >= this.length) {
-      return -1;
-    }
-
+  #getNode(index) {
     let curr = this.head.next;
+
     if (index < this.length / 2) {
       // first half
       for (let i = 0; i < index; i++) {
@@ -39,7 +33,22 @@ class MyDoublyLinkedList {
       }
     }
 
-    return curr.val;
+    return curr;
+  }
+
+  /**
+   * @param {number} index
+   * @return {number}
+   */
+  get(index) {
+    if (this.length < 1) {
+      return -1;
+    }
+    if (index < 0 || index >= this.length) {
+      return -1;
+    }
+
+    return this.#getNode(index).val;
   }
 
   /**
@@ -95,20 +104,7 @@ class MyDoublyLinkedList {
       return;
     }
 
-    let curr = this.head.next;
-    if (index < this.length / 2) {
-      // first half
-      for (let i = 0; i < index; i++) {
-        curr = curr.next;
-      }
-    } else {
-      // second half
-      curr = this.tail;
-      for (let i = this.length; i > index; i--) {
-        curr = curr.prev;
-      }
-    }
-
+    const curr = this.#getNode(index);
     const newNode = new DLListNode(val, curr, curr.prev);
     curr.prev.next = newNode;
     curr.prev = newNode;
@@ -125,20 +121,7 @@ class MyDoublyLinkedList {
       return;
     }
 
-    let curr = this.head.next;
-    if (index < this.length / 2) {
-      // first half
-      for (let i = 0; i < index; i++) {
-        curr = curr.next;
-      }
-    } else {
-      // second half
-      curr = this.tail;
-      for (let i = this.length; i > index; i--) {
-        curr = curr.prev;
-      }
-    }
-
+    const curr = this.#getNode(index);
     curr.prev.next = curr.next;
     curr.next.prev = curr.prev;
     this.length--;
