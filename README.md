@@ -251,6 +251,9 @@
     <summary> Queues </summary>
     <ul>
     <li>
+        <a href="./js/algo-challenges/moving-average-from-data-stream">Moving Average from Data Stream</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/number-of-recent-calls">Number of Recent Calls</a>
     </li>
     </ul>

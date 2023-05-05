@@ -53,6 +53,31 @@ const toList = function (arr) {
   return head;
 };
 
+/**
+ * Returns a doubly-linked list from an array.
+ * @param {*[]} arr
+ * @return DLListNode
+ */
+const toDoublyLinkedList = function (arr) {
+  if (!arr || arr.length === 0) {
+    return null;
+  }
+
+  const head = new DLListNode(arr[0], null, null);
+
+  let curr = head;
+
+  for (let i = 1; i < arr.length; i++) {
+    const newNode = new DLListNode(arr[i], null, null);
+
+    curr.next = newNode;
+    newNode.prev = curr;
+    curr = curr.next;
+  }
+
+  return head;
+};
+
 const toImmutableList = function (arr, strOutFunc) {
   if (!arr || arr.length === 0) {
     return null;
@@ -92,11 +117,59 @@ const toArray = function (list) {
   return arr;
 };
 
+/**
+ * True if list is linked in-order and the expected length.
+ * @param {ListNode} list
+ * @param {number} expectedLength
+ * @return {boolean}
+ */
+const linkedListIsCorrect = function (list, expectedLength) {
+  let curr = list;
+  let actualLength = 0;
+
+  while (curr) {
+    curr = curr.next;
+    actualLength++;
+  }
+
+  return expectedLength === actualLength;
+};
+
+/**
+ * True if doubly linked list is in-order and the expected length.
+ * @param list
+ * @param expectedLength
+ */
+const doublyLinkedListIsCorrect = function (list, expectedLength) {
+  let curr = list;
+  let prev = null;
+  let actualLengthForward = 0;
+  let actualLengthBackward = 0;
+
+  while (curr) {
+    prev = curr;
+    curr = curr.next;
+    actualLengthForward++;
+  }
+
+  curr = prev;
+
+  while (curr) {
+    curr = curr.prev;
+    actualLengthBackward++;
+  }
+
+  return expectedLength === actualLengthForward && expectedLength === actualLengthBackward;
+};
+
 module.exports = {
   toList,
   toImmutableList,
   toArray,
+  toDoublyLinkedList,
   ListNode,
   DLListNode,
-  ImmutableListNode
+  ImmutableListNode,
+  linkedListIsCorrect,
+  doublyLinkedListIsCorrect
 };
