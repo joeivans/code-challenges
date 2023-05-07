@@ -1,7 +1,7 @@
 <section id="top">
-    <h2 align="center"> Joe's Code Challenge Adventures </h2>
+    <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
-        Welcome to my code challenge adventures repository!
+        Welcome to Joe's code challenge repository!
         Every day, I generally solve one algorithm whiteboard challenge or
         deep-dive into something else that's fun.
         </em> </p>
