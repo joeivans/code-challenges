@@ -2,15 +2,13 @@
     <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
         Welcome to Joe's code challenge repository!
-        Every day, I generally solve one algorithm whiteboard challenge or
-        deep-dive into something else that's fun.
+        I solve one algorithm whiteboard challenge or
+        deep-dive into something else that's fun every day.
         </em> </p>
     <p> <em>
-        I keep this repository to practice CICD skills alongside my algorithmic
+        I keep this repository to practice CICD skills alongside algorithmic
         personal development.
-        I've solved hundreds of code challenges from college, job interviews and
-        challenge sites around the internet.
-        I've only recently started keeping a repository.
+        I've only recently started keeping a code challenge repository.
         </em> </p>
     <p><em>
         My language of choice here is JavaScript since it's extremely portable.
