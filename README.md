@@ -94,6 +94,9 @@
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/maximum-average-subarray-i">Maximum Average Subarray I</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/maximum-number-of-words-found-in-sentences">Maximum Number of Words Found in Sentences</a>
     </li>
     <li>
