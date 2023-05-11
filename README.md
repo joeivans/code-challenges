@@ -436,6 +436,9 @@
         <li>
             <a href="./js/learning/codingbat/recursion-1-bunny-ears-2">Recursion-1 Bunny Ears 2</a>
         </li>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-triangle">Recursion-1 Triangle</a>
+        </li>
     </ul>
 </details>
 <hr />
