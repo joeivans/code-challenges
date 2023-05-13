@@ -442,6 +442,9 @@
         <li>
             <a href="./js/learning/codingbat/recursion-1-triangle">Recursion-1 Triangle</a>
         </li>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-sum-digits">Recursion-1 Sum Digits</a>
+        </li>
     </ul>
 </details>
 <hr />
