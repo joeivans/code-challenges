@@ -445,6 +445,9 @@
         <li>
             <a href="./js/learning/codingbat/recursion-1-sum-digits">Recursion-1 Sum Digits</a>
         </li>
+        <li>
+            <a href="./js/learning/codingbat/recursion-1-count7">Recursion-1 Count7</a>
+        </li>
     </ul>
 </details>
 <hr />
