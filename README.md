@@ -3,15 +3,14 @@
     <p> <em>
         Welcome to Joe's code challenge repository!
         I solve one algorithm whiteboard challenge or
-        deep-dive into something else that's fun every day.
+        deep-dive into something else every day.
         </em> </p>
     <p> <em>
         I keep this repository to practice CICD skills alongside algorithmic
         personal development.
-        I've only recently started keeping a code challenge repository.
         </em> </p>
     <p><em>
-        My language of choice here is JavaScript since it's extremely portable.
+        The language of choice here is JavaScript since it's extremely portable.
         I keep implementations easy to read and avoid using built-in language
         features as much as possible to make language translation easier.
         </em></p>
