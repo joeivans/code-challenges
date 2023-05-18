@@ -302,6 +302,9 @@
         <a href="./js/algo-challenges/check-if-all-characters-have-equal-number-of-occurrences">Check if All Characters Have Equal Number of Occurrences</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/check-if-the-sentence-is-pangram">Check if the Sentence Is Pangram</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/custom-sort-string">Custom Sort String</a>
     </li>
     <li>
