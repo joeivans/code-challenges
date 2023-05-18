@@ -1,9 +1,8 @@
 <section id="top">
     <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
-        Welcome to Joe's code challenge repository!
-        I solve one algorithm whiteboard challenge or
-        deep-dive into something else every day.
+        Welcome! This is a personal repository. I solve one algorithm whiteboard
+        challenge or deep-dive into something else every day.
         </em> </p>
     <p> <em>
         I keep this repository to practice CICD skills alongside algorithmic
@@ -15,7 +14,7 @@
         features as much as possible to make language translation easier.
         </em></p>
     <p><em>
-        Enjoy!
+        Thanks for stopping by!
         </em></p>
     <div align="right">
         <em> - Joe </em>
