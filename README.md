@@ -146,6 +146,9 @@
         <a href="./js/algo-challenges/squares-of-a-sorted-array">Squares of a Sorted Array</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/subarray-sum-equals-k">Subarray Sum Equals K</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/sum-of-all-odd-length-subarrays">Sum of All Odd Length Subarrays</a>
     </li>
     <li>
