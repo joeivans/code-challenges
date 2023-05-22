@@ -39,6 +39,9 @@
         <a href="./js/algo-challenges/check-if-n-and-its-double-exist">Check If N and its Double Exist</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/contains-duplicate">Contains Duplicate</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/counting-elements">Counting Elements</a>
     </li>
     <li>
