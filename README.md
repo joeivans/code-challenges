@@ -42,6 +42,9 @@
         <a href="./js/algo-challenges/contains-duplicate">Contains Duplicate</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/count-number-of-nice-subarrays">Count Number of Nice Subarrays</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/counting-elements">Counting Elements</a>
     </li>
     <li>
