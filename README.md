@@ -1,18 +1,15 @@
 <section id="top">
     <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
-        Welcome! This is a personal repository. I usually solve one algorithm
+        This is a personal repository. I usually solve one algorithm
         whiteboard challenge or deep-dive into something else every day.
-        </em> </p>
-    <p> <em>
         I keep this repository to practice CICD skills alongside algorithmic
         personal development.
         </em> </p>
     <p><em>
-        The language of choice here is JavaScript because it's extremely
-        portable. I keep implementations easy to read and avoid using built-in
-        language features as much as possible to make language translation
-        easier.
+        The language of choice here is JavaScript for portability. I keep
+        implementations easy to read and avoid using built-in language features
+        as much as possible to make language translation easier.
         </em></p>
     <p><em>
         Thanks for stopping by!
