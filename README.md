@@ -75,6 +75,9 @@
         <a href="./js/algo-challenges/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/find-players-with-zero-or-one-losses">Find Players With Zero or One Losses</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/find-the-highest-altitude">Find the Highest Altitude</a>
     </li>
     <li>
