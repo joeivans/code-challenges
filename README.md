@@ -3,6 +3,8 @@
     <p> <em>
         This is a personal repository. I usually solve one algorithm
         whiteboard challenge or deep-dive into something else every day.
+        </em> </p>
+    <p><em>
         I keep this repository to practice CICD skills alongside algorithmic
         personal development.
         </em> </p>
