@@ -92,6 +92,9 @@
         <a href="./js/algo-challenges/intersection-of-multiple-arrays">Intersection of Multiple Arrays</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/k-radius-subarray-averages">K Radius Subarray Averages</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/kids-with-the-greatest-number-of-candies">Kids with the Greatest Number of Candies</a>
     </li>
     <li>
