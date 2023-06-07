@@ -107,6 +107,9 @@
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/max-consecutive-ones-ii">Max Consecutive Ones II</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/maximum-average-subarray-i">Maximum Average Subarray I</a>
     </li>
     <li>
