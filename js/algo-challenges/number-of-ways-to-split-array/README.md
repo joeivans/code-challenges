@@ -46,7 +46,9 @@ second part is [0], and its sum is 0. Since 6 >= 0, i = 2 is a valid split.
 - `-105 <= nums[i] <= 10^5`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
+![Whiteboard Image 02][whiteboard-image-02]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
+[whiteboard-image-02]: whiteboard-02.jpg

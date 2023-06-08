@@ -7,24 +7,26 @@ const waysToSplitArray = function (nums) {
 //  n = nums.length
 //  Algorithm scales linearly with input array size.
 
-  let numOfSplits = 0;
-  let leftSide = 0;
-  let rightSide = 0;
+  const n = nums.length;
+
+  let prefixSum = 0;
+  let suffixSum = 0;
+  let answer = 0;
 
   for (const num of nums) {
-    rightSide += num;
+    suffixSum += num;
   }
 
-  for (let i = 0; i < nums.length - 1; i++) {
-    leftSide += nums[i];
-    rightSide -= nums[i];
+  for (let i = 0; i < n - 1; i++) {
+    prefixSum += nums[i];
+    suffixSum -= nums[i];
 
-    if (leftSide >= rightSide) {
-      numOfSplits++;
+    if (prefixSum >= suffixSum) {
+      answer++;
     }
   }
 
-  return numOfSplits;
+  return answer;
 };
 
 module.exports = {
