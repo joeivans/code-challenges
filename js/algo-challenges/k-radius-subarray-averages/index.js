@@ -8,37 +8,40 @@ const getAverages = function (nums, k) {
 //  n = nums.length
 //  Algorithm scales linearly with input array size.
 
-  // -1 fill result array
-  //
-  const result = new Array(nums.length).fill(-1);
+  const n = nums.length;
 
-  // prefix sum sliding window
+  const answer = new Array(n).fill(-1);
+
+  let sum = 0;
+  const rightWindowBound = k + k;
+  const windowSize = rightWindowBound + 1;
+  // first fixed window less one
   //
-  // first half [0, windowRightBound)
-  //
-  const windowRightBound = k + k;
-  const windowSize = windowRightBound + 1;
-  let prefixSum = 0;
-  for (let r = 0; r < windowRightBound; r++) {
-    prefixSum += nums[r];
+  for (let r = 0; r < n && r < rightWindowBound; r++) {
+    sum += nums[r];
   }
-  // second half [windowRightBound, nums.length)
+  // next windows
   //
-  for (let l = 0, r = windowRightBound; r < nums.length; r++, l++) {
+  for (let l = 0, r = rightWindowBound; r < n; r++, l++) {
     // grow window
     //
-    prefixSum += nums[r];
+    sum += nums[r];
 
     // update answer
     //
-    result[k + l] = Math.trunc(prefixSum / windowSize);
+    const offset = k + l;
+    answer[offset] = getAverage(sum, windowSize);
 
     // shrink window
     //
-    prefixSum -= nums[l];
+    sum -= nums[l];
   }
 
-  return result;
+  return answer;
+};
+
+const getAverage = function (sum, n) {
+  return Math.trunc(sum / n);
 };
 
 module.exports = {
