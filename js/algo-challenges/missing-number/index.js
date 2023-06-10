@@ -7,16 +7,16 @@ const missingNumber = function (nums) {
 //  n = nums.length
 //  Algorithm scales linearly with input array size.
 
-  const expectedSum = nums.length * (nums.length + 1) / 2;
-  let actualSum = 0;
+  const n = nums.length;
+
+  const summation = n * (n + 1) / 2;
+  let sumOfNums = 0;
 
   for (const num of nums) {
-
-    actualSum += num;
-
+    sumOfNums += num;
   }
 
-  return expectedSum - actualSum;
+  return summation - sumOfNums;
 };
 
 module.exports = {
