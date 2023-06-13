@@ -418,6 +418,9 @@
         <a href="./js/algo-challenges/valid-palindrome">Valid Palindrome</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/valid-palindrome-ii">Valid Palindrome II</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/verifying-an-alien-dictionary">Verifying an Alien Dictionary</a>
     </li>
     <li>
