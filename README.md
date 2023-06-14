@@ -131,7 +131,7 @@
         <a href="./js/algo-challenges/missing-number">Missing Number</a>
     </li>
     <li>
-        <a href="./js/algo-challenges/move-zeros">Move Zeros</a>
+        <a href="./js/algo-challenges/move-zeroes">Move Zeroes</a>
     </li>
     <li>
         <a href="./js/algo-challenges/number-of-arithmetic-triplets">Number of Arithmetic Triplets</a>
