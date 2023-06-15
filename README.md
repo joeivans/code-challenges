@@ -9,7 +9,7 @@
         personal development.
         </em> </p>
     <p><em>
-        The language of choice here is JavaScript for portability. I keep
+        The language of choice is JavaScript for portability. I keep
         implementations easy to read and avoid using built-in language features
         as much as possible to make language translation easier.
         </em></p>
