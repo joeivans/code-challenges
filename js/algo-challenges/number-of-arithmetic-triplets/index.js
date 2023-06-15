@@ -15,7 +15,7 @@ const arithmeticTriplets = function (nums, diff) {
 //
 //  This means that for i, j, k:
 //    - They will each never exceed n.
-//    - They will each never be assigned the same value more than once.
+//    - They will each never be assigned to a smaller value than any previous.
 //
 //  Therefore, the work done in each nested loop is so amortized as constant.
 //  The maximum number of operations in the entire algorithm will never exceed
@@ -23,49 +23,24 @@ const arithmeticTriplets = function (nums, diff) {
 //  summarizes to O(n) Time.
 
   const n = nums.length;
-  const minN = 3;
-  const maxN = 300;
 
   let answer = 0;
 
-  let i = 0;
-  let j = 1;
-  let k = 2;
-
-  // entire window
-  while (i < n - 2) {
-    // left side
-    while (i < j && nums[j] - nums[i] !== diff) {
-      // grow left side gte constraint
-      while (j < n - 1 && nums[j] - nums[i] < diff) {
-        j++;
-      }
-      // shrink left side to equal constraint
-      while (i < j && nums[j] - nums[i] > diff) {
-        i++;
-      }
+  for (let i = 0, j = 1; j < n - 1; j++) {
+    // shrink left side to fit constraint
+    while (i < j - 1 && nums[j] - nums[i] > diff) {
+      i++;
     }
 
-    k = j + 1;
-
-    // right side
-    while (k < n && j < k && nums[k] - nums[j] !== diff) {
-      // grow right side gte constraint
-      while (k < n && nums[k] - nums[j] < diff) {
-        k++;
-      }
-      // shrink right side to equal constraint
-      while (j < k && nums[k] - nums[j] > diff) {
-        j++;
+    if (nums[j] - nums[i] === diff) {
+      // grow right side to fit constraint
+      for (let k = j + 1; k < n && nums[k] - nums[j] <= diff; k++) {
+        // update answer
+        if (nums[k] - nums[j] === diff) {
+          answer++;
+        }
       }
     }
-
-    // update answer
-    if (nums[j] - nums[i] === diff && nums[k] - nums[j] === diff) {
-      answer++;
-    }
-
-    i++;
   }
 
   return answer;
