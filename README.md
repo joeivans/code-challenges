@@ -1,7 +1,7 @@
 <section id="top">
     <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
-        This is a personal repository. I usually solve one algorithm
+        This is a personal repository. I usually solve one LeetCode algorithm
         whiteboard challenge or deep-dive into something else every day.
         </em> </p>
     <p><em>
