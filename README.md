@@ -10,7 +10,7 @@
         </em> </p>
     <p><em>
         The language of choice is JavaScript for portability. I keep
-        implementations easy to read and avoid using built-in language features
+        implementations easy to read and avoid using language features
         as much as possible to make language translation easier.
         </em></p>
     <p><em>
