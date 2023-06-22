@@ -128,6 +128,9 @@
         <a href="./js/algo-challenges/minimum-consecutive-cards-to-pick-up">Minimum Consecutive Cards to Pick Up</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/minimum-size-subarray-sum">Minimum Size Subarray Sum</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/minimum-value-to-get-positive-step-by-step-sum">Minimum Value to Get Positive Step by Step Sum</a>
     </li>
     <li>
