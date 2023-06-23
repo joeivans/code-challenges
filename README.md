@@ -164,6 +164,9 @@
         <a href="./js/algo-challenges/replace-elements-with-greatest-element-on-right-side">Replace Elements with Greatest Element on Right Side</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/running-sum-of-1d-array">Running Sum of 1d Array</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/shuffle-the-array">Shuffle the Array</a>
     </li>
     <li>
