@@ -161,6 +161,9 @@
         <a href="./js/algo-challenges/product-of-array-except-self">Product of Array Except Self</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/range-sum-query-immutable">Range Sum Query - Immutable</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-element">Remove Element</a>
     </li>
     <li>
