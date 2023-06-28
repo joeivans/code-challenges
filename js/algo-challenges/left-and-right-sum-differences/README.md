@@ -36,7 +36,9 @@ The array answer is [|0 - 0|] = [0].
 - `1 <= nums[i] <= 10^5`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
+![Whiteboard Image 02][whiteboard-image-02]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
+[whiteboard-image-02]: whiteboard-02.jpg
