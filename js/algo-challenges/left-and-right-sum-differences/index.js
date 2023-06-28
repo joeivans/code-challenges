@@ -2,35 +2,31 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const leftRigthDifference = function (nums) {
-// O(n) Time | O(n) Space
+const leftRightDifference = function (nums) {
+// O(n) Time | O(n) Space | O(1) Space Additional
 //  n = nums.length
 //  Algorithm scales linearly with input array size.
 
-  const leftSum = new Array(nums.length);
-  const rightSum = new Array(nums.length);
+  const n = nums.length;
 
-  leftSum[0] = 0;
-  for (let i = 1; i < nums.length; i++) {
-    leftSum[i] = leftSum[i - 1] + nums[i - 1];
+  const result = new Array(n);
+
+  let prefix = 0;
+  let suffix = 0;
+
+  for (let i = 0; i < n; i++) {
+    suffix += nums[i];
   }
 
-  rightSum[nums.length - 1] = 0;
-  for (let i = nums.length - 1 - 1; i >= 0; i--) {
-    rightSum[i] = rightSum[i + 1] + nums[i + 1];
+  for (let i = 0; i < n; i++) {
+    suffix -= nums[i];
+    result[i] = Math.abs(suffix - prefix);
+    prefix += nums[i];
   }
 
-  for (let i = 0; i < nums.length; i++) {
-    if (rightSum[i] > leftSum[i]) {
-      rightSum[i] = rightSum[i] - leftSum[i];
-    } else {
-      rightSum[i] = leftSum[i] - rightSum[i];
-    }
-  }
-
-  return rightSum;
+  return result;
 };
 
 module.exports = {
-  leftRigthDifference
+  leftRightDifference
 };
