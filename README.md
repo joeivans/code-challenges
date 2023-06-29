@@ -205,14 +205,6 @@
     </ul>
 </details>
 <details open>
-    <summary> Bit Manipulation </summary>
-    <ul>
-    <li>
-        <a href="./js/algo-challenges/single-number">Single Number</a>
-    </li>
-    </ul>
-</details>
-<details open>
     <summary> Linked Lists </summary>
     <ul>
     <li>
@@ -451,6 +443,14 @@
 
 ## Other Challenges
 
+<details open>
+    <summary> Bit Manipulation </summary>
+    <ul>
+    <li>
+        <a href="./js/algo-challenges/single-number">Single Number</a>
+    </li>
+    </ul>
+</details>
 <details open>
     <summary> Platform Challenges </summary>
     <ul>
