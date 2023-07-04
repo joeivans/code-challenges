@@ -2,7 +2,7 @@
     <h2 align="center"> Joe's Daily Code Challenge Repository </h2>
     <p> <em>
         I solve one LeetCode challenge or deep-dive into something else every
-        day. Some days I only do maintenance on this repo.
+        day.
         </em> </p>
     <p><em>
         I keep this repository to practice CICD skills alongside algorithmic
