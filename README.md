@@ -1,8 +1,9 @@
 <section id="top">
     <h2 align="center"> Joe's Daily Code Challenge Repository </h2>
     <p> <em>
-        I solve one LeetCode challenge or deep-dive into something else every
-        day.
+        I solve five random LeetCode challenges or deep-dive into something
+        else every day. If I haven't solved the challenge before, I add it to
+        this repo. Some days I just do maintenance when I have nothing to add.
         </em> </p>
     <p><em>
         I keep this repository to practice CICD skills alongside algorithmic
