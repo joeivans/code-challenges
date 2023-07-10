@@ -451,14 +451,6 @@
     </li>
     </ul>
 </details>
-<details open>
-    <summary> Platform Challenges </summary>
-    <ul>
-        <li>
-            <a href="./js/platform-challenges/node/node-events/intro">Node Events Intro</a>
-        </li>
-    </ul>
-</details>
 <hr />
 
 ## Learning Reinforcement
