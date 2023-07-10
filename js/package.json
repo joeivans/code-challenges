@@ -4,17 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm test",
-    "start:node-event:intro": "node node-events/intro/index.js",
-    "test": "jest --verbose --coverage",
-    "test:watch": "jest --verbose --watch",
-    "lint": "eslint \"**/*.js\"",
-    "lint:fix": "eslint \"**/*.js\" --fix"
+    "test": "jest --verbose --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Joe Ivans",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.3.1"
+  "dependencies": {
+    "jest": "^25.0.0"
   }
 }
