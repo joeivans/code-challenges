@@ -1,18 +1,18 @@
-# Remove Linked List Tail
+# Remove Linked List Head
 - Learning
 
-Given a linked list `head`, remove the last node (`tail`) if it exists.
+Given a linked list `head`, remove the first node (`head`) if it exists.
 
 **Example 1:**
 ```
 Input: head = [1, 2, 3]
-Output: [1, 2]
+Output: [2, 3]
 ```
 
 **Example 2:**
 ```
 Input: head = [1, 2]
-Output: [1]
+Output: [2]
 ```
 
 **Example 3:**
@@ -32,9 +32,7 @@ Output: []
 - `-1000 <= Node.val <= 1000`
 
 ## Whiteboard
-![Whiteboard Image 01][whiteboard-image-01]
-![Whiteboard Image 02][whiteboard-image-02]
+![Whiteboard Image][whiteboard-image]
 
 <!-- Refs -->
-[whiteboard-image-01]: whiteboard-01.jpg
-[whiteboard-image-02]: whiteboard-02.jpg
+[whiteboard-image]: whiteboard.jpg

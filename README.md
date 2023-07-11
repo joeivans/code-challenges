@@ -459,6 +459,9 @@
     <summary> Linked Lists </summary>
     <ul>
         <li>
+            <a href="./js/learning/dsa/linked-lists/remove-linked-list-head">Remove Linked List Head</a>
+        </li>
+        <li>
             <a href="./js/learning/dsa/linked-lists/remove-linked-list-tail">Remove Linked List Tail</a>
         </li>
     </ul>
