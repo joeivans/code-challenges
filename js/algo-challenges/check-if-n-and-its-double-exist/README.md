@@ -25,7 +25,7 @@ Explanation: There is no i and j that satisfy the conditions.
 
 **Constraints:**
 - `2 <= arr.length <= 500`
-- `-103 <= arr[i] <= 103`
+- `-10^3 <= arr[i] <= 10^3`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
