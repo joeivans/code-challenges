@@ -1,5 +1,5 @@
 <section id="top">
-    <h2 align="center"> Joe's Daily Code Challenge Repository </h2>
+    <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
         I solve five random LeetCode challenges or deep-dive into something
         else every day. If it's a new challenge, I add it to
