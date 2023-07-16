@@ -30,10 +30,10 @@ Output: [4,2,0,7,4]
 ```
 
 **Constraints:**
-- `2 <= n <= 104`
+- `2 <= n <= 10^4`
 - `encoded.length == n - 1`
-- `0 <= encoded[i] <= 105`
-- `0 <= first <= 105`
+- `0 <= encoded[i] <= 10^5`
+- `0 <= first <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
