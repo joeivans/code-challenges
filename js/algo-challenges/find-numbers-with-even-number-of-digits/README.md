@@ -29,7 +29,7 @@ Only 1771 contains an even number of digits.
 
 **Constraints:**
 - `1 <= nums.length <= 500`
-- `1 <= nums[i] <= 105`
+- `1 <= nums[i] <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
