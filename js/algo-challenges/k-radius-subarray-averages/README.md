@@ -52,8 +52,8 @@ Explanation:
 
 **Constraints:**
 - `n == nums.length`
-- `1 <= n <= 105`
-- `0 <= nums[i], k <= 105`
+- `1 <= n <= 10^5`
+- `0 <= nums[i], k <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image 01][whiteboard-image-01]
