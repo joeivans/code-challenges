@@ -9,6 +9,6 @@
   "author": "Joe Ivans",
   "license": "ISC",
   "dependencies": {
-    "jest": "^25.0.0"
+    "jest": "^29.6.1"
   }
 }
