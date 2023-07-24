@@ -407,6 +407,9 @@
         <a href="./js/algo-challenges/reverse-prefix-of-word">Reverse Prefix of Word</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/reverse-string">Reverse String</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/reverse-string-ii">Reverse String II</a>
     </li>
     <li>
