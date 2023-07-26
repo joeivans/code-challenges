@@ -3,20 +3,19 @@
  * @return {number[]}
  */
 const runningSum = function (nums) {
-// O(n) Time | O(n) Space
+// O(n) Time | O(1) Space
 //  n = nums.length
 //  Algorithm scales linearly with input array size.
 
   const n = nums.length;
 
-  const prefixSum = new Array(n);
+  for (let i = 0, prefix = 0; i < n; i++) {
+    prefix += nums[i];
 
-  prefixSum[0] = nums[0];
-  for (let i = 1; i < n; i++) {
-    prefixSum[i] = prefixSum[i - 1] + nums[i];
+    nums[i] = prefix;
   }
 
-  return prefixSum;
+  return nums;
 };
 
 module.exports = {
