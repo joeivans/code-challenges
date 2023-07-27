@@ -43,7 +43,7 @@ second part is [0], and its sum is 0. Since 6 >= 0, i = 2 is a valid split.
 
 **Constraints:**
 - `2 <= nums.length <= 10^5`
-- `-105 <= nums[i] <= 10^5`
+- `-10^5 <= nums[i] <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image 01][whiteboard-image-01]
