@@ -194,6 +194,9 @@
         <a href="./js/algo-challenges/sum-of-unique-elements">Sum of Unique Elements</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/two-sum">Two Sum</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/unique-number-of-occurrences">Unique Number of Occurrences</a>
     </li>
     <li>
