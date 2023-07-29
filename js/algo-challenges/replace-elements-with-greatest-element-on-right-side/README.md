@@ -29,8 +29,8 @@ Explanation: There are no elements to the right of index 0.
 ```
 
 **Constraints:**
-- `1 <= arr.length <= 104`
-- `1 <= arr[i] <= 105`
+- `1 <= arr.length <= 10^4`
+- `1 <= arr[i] <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
