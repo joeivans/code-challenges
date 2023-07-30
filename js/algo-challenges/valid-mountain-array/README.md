@@ -32,8 +32,8 @@ Output: true
 ```
 
 **Constraints:**
-- `1 <= arr.length <= 104`
-- `0 <= arr[i] <= 104`
+- `1 <= arr.length <= 10^4`
+- `0 <= arr[i] <= 10^4`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
