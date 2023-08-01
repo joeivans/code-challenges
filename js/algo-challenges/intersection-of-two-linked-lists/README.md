@@ -53,8 +53,8 @@ The two lists do not intersect, so return null.
 **Constraints:**
 - The number of nodes of `listA` is in the `m`.
 - The number of nodes of `listB` is in the `n`.
-- `1 <= m, n <= 3 * 104`
-- `1 <= Node.val <= 105`
+- `1 <= m, n <= 3 * 10^4`
+- `1 <= Node.val <= 10^5`
 
 **Follow up:** Could you write a solution that runs in `O(m + n)` time and use
 only `O(1)` memory?
