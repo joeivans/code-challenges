@@ -44,8 +44,8 @@ There is only one node with a twin in the linked list having twin sum of 1 + 100
 ```
 
 **Constraints:**
-- The number of nodes in the list is an even integer in the range `[2, 105]`.
-- `1 <= Node.val <= 105`
+- The number of nodes in the list is an even integer in the range `[2, 10^5]`.
+- `1 <= Node.val <= 10^5`
 
 ## Whiteboard
 ![Whiteboard Image][whiteboard-image]
