@@ -36,9 +36,9 @@ Explanation: You cannot make any change, so the maximum length is 1.
 ```
 
 **Constraints:**
-- `1 <= s.length <= 105`
+- `1 <= s.length <= 10^5`
 - `t.length == s.length`
-- `0 <= maxCost <= 106`
+- `0 <= maxCost <= 10^6`
 - `s` and `t` consist of only lowercase English letters.
 
 ## Whiteboard
