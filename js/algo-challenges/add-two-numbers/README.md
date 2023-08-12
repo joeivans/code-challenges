@@ -36,7 +36,7 @@ Output: [8,9,9,9,0,0,0,1]
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
