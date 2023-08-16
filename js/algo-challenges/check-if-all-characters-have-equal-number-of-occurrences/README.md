@@ -28,7 +28,7 @@ Explanation: The characters that appear in s are 'a' and 'b'.
 - `s` consists of lowercase English letters.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
