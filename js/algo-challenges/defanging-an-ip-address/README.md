@@ -24,7 +24,7 @@ Output: "255[.]100[.]50[.]0"
 - The given `address` is a valid IPv4 address.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
