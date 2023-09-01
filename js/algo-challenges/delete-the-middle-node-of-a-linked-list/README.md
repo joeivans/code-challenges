@@ -48,7 +48,7 @@ Node 0 with value 2 is the only node remaining after removing node 1.
 - `1 <= Node.val <= 10^5`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
