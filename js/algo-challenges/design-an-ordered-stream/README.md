@@ -47,7 +47,7 @@ os.insert(4, "ddddd"); // Inserts (4, "ddddd"), returns ["ddddd", "eeeee"].
 - Exactly `n` calls will be made to `insert`.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
