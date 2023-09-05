@@ -50,7 +50,7 @@ Apply Operation 2: "baaccc" -> "abbccc"
 - `word1` and `word2` contain only lowercase English letters.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
