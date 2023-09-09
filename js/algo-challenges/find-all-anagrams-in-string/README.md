@@ -34,7 +34,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 - `s` and `p` consist of lowercase English letters.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
