@@ -53,7 +53,7 @@ This question is the same as 1991:
 https://leetcode.com/problems/find-the-middle-index-in-array/
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
