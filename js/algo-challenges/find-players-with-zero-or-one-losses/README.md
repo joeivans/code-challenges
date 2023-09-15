@@ -45,7 +45,7 @@ Thus, answer[0] = [1,2,5,6] and answer[1] = [].
 - All `matches[i]` are unique.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
