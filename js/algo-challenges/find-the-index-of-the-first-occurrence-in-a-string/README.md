@@ -28,7 +28,7 @@ Explanation: "leeto" did not occur in "leetcode", so we return -1.
 - `haystack` and `needle` consist of only lowercase English characters.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
