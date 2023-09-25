@@ -35,7 +35,7 @@ and you want to check one by one to see if `t` has its subsequence. In this
 scenario, how would you change your code?
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
