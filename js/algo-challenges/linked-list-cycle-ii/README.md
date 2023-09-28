@@ -46,7 +46,7 @@ Explanation: There is no cycle in the linked list.
 **Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
