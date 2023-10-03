@@ -29,7 +29,7 @@ Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 - `0 <= k <= nums.length`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
