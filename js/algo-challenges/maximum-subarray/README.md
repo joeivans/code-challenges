@@ -37,7 +37,7 @@ Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 solution using the divide and conquer approach, which is more subtle.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
