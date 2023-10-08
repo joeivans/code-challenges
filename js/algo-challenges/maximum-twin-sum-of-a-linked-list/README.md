@@ -48,7 +48,7 @@ There is only one node with a twin in the linked list having twin sum of 1 + 100
 - `1 <= Node.val <= 10^5`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
