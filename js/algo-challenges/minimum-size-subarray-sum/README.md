@@ -39,7 +39,7 @@ If you have figured out the O(n) solution, try coding another solution of which
 the time complexity is O(n log(n)).
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
