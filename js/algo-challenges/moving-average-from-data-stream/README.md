@@ -35,7 +35,7 @@ movingAverage.next(5); // return 6.0 = (10 + 3 + 5) / 3
 - At most `10^4` calls will be made to `next`.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
