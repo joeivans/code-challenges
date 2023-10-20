@@ -35,7 +35,7 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 array does not count as extra space for space complexity analysis.)
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
