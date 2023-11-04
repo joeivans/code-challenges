@@ -42,7 +42,7 @@ You should not do any reverse operation, the resulting string is "abcd".
 - `ch` is a lowercase English letter.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
