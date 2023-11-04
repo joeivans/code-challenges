@@ -26,7 +26,7 @@ Output: ["h","a","n","n","a","H"]
 - `s[i]` is a printable ascii character.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
