@@ -1,8 +1,8 @@
 <section id="top">
     <h2 align="center"> Joe's Code Challenge Repository </h2>
     <p> <em>
-        I keep this repository to practice CICD skills alongside algorithmic
-        personal development.
+        This is a personal repo. I maintain it to practice CICD skills alongside
+        algorithmic development.
         </em> </p>
     <p><em>
         I solve five random LeetCode challenges or deep-dive into something
