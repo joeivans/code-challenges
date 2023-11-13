@@ -1,23 +1,12 @@
-<section id="top">
-    <h2 align="center"> Joe's Code Challenge Repository </h2>
+<section id="top" align="center">
+    <h2> Joe's Code Challenges Repository </h2>
     <p> <em>
         This is a personal repo. I maintain it to practice CICD skills alongside
         algorithmic development.
-        </em> </p>
+        </em> </p?
     <p><em>
-        I solve five random LeetCode challenges or deep-dive into something
-        else every day. If it's a new challenge, I add it to
-        this repo. Some days I just do maintenance when I have nothing new to add.
-        </em> </p>
-    <p><em>
-        I use JavaScript for portability. I keep implementations easy to read
-        and avoid most language features to make translation easier.
-        </em></p>
-    <p><em>
-        Thanks for stopping by!
-        </em></p>
-    <div align="right">
-        <em> - Joe </em>
+    <div>
+        <em> Thanks for stopping by! </em>
     </div>
 </section>
 
