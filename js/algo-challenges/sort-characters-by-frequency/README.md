@@ -41,7 +41,7 @@ Note that 'A' and 'a' are treated as two different characters.
 - `s` consists of uppercase and lowercase English letters and digits.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
