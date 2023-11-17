@@ -30,7 +30,7 @@ Output: [4,9,9,49,121]
 could you find an `O(n)` solution using a different approach?
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
