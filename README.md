@@ -96,6 +96,9 @@
         <a href="./js/algo-challenges/left-and-right-sum-differences">Left and Right Sum Differences</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/longest-substring-without-repeating-characters">Longest Substring Without Repeating Characters</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/max-consecutive-ones">Max Consecutive Ones</a>
     </li>
     <li>
