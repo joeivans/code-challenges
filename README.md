@@ -221,6 +221,9 @@
         <a href="./js/ds-challenges/design-linked-list">Design Linked List</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/insert-value-at-list-position-k">Insert Value at List Position K</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/intersection-of-two-linked-lists">Intersection of Two Linked Lists</a>
     </li>
     <li>
