@@ -33,7 +33,7 @@ Explanation: The unique elements are [1,2,3,4,5], and the sum is 15.
 - `1 <= nums[i] <= 100`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
