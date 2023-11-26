@@ -32,7 +32,7 @@ Output: true
 - `-1000 <= arr[i] <= 1000`
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
