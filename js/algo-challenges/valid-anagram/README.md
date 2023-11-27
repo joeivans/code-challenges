@@ -31,7 +31,7 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt
 your solution to such a case?
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
