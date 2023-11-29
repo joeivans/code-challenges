@@ -37,7 +37,7 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 - `s` consists only of printable ASCII characters.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
