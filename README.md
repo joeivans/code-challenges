@@ -254,6 +254,9 @@
         <a href="./js/algo-challenges/remove-duplicates-from-sorted-list-ii">Remove Duplicates from Sorted List II</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/remove-duplicates-from-an-unsorted-list">Remove Duplicates From an Unsorted List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/remove-nth-node-from-end-of-list">Remove Nth Node From End of List</a>
     </li>
     <li>
