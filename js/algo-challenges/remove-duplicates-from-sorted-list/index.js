@@ -5,20 +5,20 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
-
 /**
  * @param {ListNode} head
  * @return {ListNode}
  */
 const deleteDuplicates = function (head) {
-// O(n) Time | O(1) Space
-//  n = number of nodes in list head
-//  Algorithm scales linearly with list head size.
+// O(n) Time | O(1) Space | n = nodes in head
 
   let curr = head;
-  while (curr && curr.next) {
+
+  while (curr?.next) {
     if (curr.val === curr.next.val) {
-      curr.next = curr.next.next;
+      const next = curr.next.next;
+      curr.next.next = null;
+      curr.next = next;
     } else {
       curr = curr.next;
     }
