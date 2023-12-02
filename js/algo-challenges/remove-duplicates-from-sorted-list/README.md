@@ -25,7 +25,11 @@ Output: [1,2,3]
 - The list is guaranteed to be sorted in ascending order.
 
 ## Whiteboard
+Second Attempt
+![Whiteboard Image 02][whiteboard-image-02]
+First Attempt
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
 [whiteboard-image-01]: whiteboard-01.jpg
+[whiteboard-image-02]: whiteboard-02.jpg
