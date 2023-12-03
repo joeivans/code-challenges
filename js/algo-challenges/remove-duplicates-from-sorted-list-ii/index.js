@@ -5,31 +5,33 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
-
 /**
  * @param {ListNode} head
  * @return {ListNode}
  */
 const deleteDuplicates = function (head) {
-// O(n) Time | O(1) Space
-//  n = head length
-//  Algorithm scales linearly with input list size.
+// O(n) Time | O(1) Space | n = nodes in head
 
   const sentinel = {next: head};
 
-  let pre = sentinel;
-  while (head) {
-    if (head.next && head.val === head.next.val) {
-      while (head.next && head.val === head.next.val) {
-        head = head.next;
+  let prev = sentinel;
+  let curr = sentinel.next;
+
+  while (curr && curr.next) {
+    if (curr.val === curr.next.val) {
+      while (curr.next && curr.val === curr.next.val) {
+        const next = curr.next.next;
+        curr.next.next = null;
+        curr.next = next;
       }
 
-      pre.next = head.next;
+      curr = curr.next;
+      prev.next.next = null;
+      prev.next = curr;
     } else {
-      pre = pre.next;
+      prev = prev.next;
+      curr = curr.next;
     }
-
-    head = head.next;
   }
 
   return sentinel.next;
