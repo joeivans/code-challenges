@@ -42,8 +42,11 @@ Could you implement a solution using only O(1) extra space complexity and O(n)
 runtime complexity?
 
 ## Whiteboard
-![Whiteboard Image 01][whiteboard-image-01]
+Attempt 2:
 ![Whiteboard Image 02][whiteboard-image-02]
+
+Attempt1:
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
 [whiteboard-image-01]: whiteboard-01.jpg
