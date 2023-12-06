@@ -27,8 +27,11 @@ Output: []
 - `-5000 <= Node.val <= 5000`
 
 ## Whiteboard
-![Whiteboard Image 01][whiteboard-image-01]
+Attempt 2:
 ![Whiteboard Image 02][whiteboard-image-02]
+
+Attempt 1:
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
 [whiteboard-image-01]: whiteboard-01.jpg
