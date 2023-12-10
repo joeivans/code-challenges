@@ -236,6 +236,9 @@
         <a href="./js/algo-challenges/merge-two-sorted-lists">Merge Two Sorted Lists</a>
     </li>
     <li>
+        <a href="./js/algo-challenges/middle-of-the-linked-list">Middle of the Linked List</a>
+    </li>
+    <li>
         <a href="./js/algo-challenges/odd-even-linked-list">Odd Even Linked List</a>
     </li>
     <li>
