@@ -26,10 +26,10 @@ Output: [2,3]
 - The list is guaranteed to be sorted in ascending order.
 
 ## Whiteboard
-Second Attempt
+Attempt 2:
 ![Whiteboard Image 02][whiteboard-image-02]
 
-First Attempt
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
