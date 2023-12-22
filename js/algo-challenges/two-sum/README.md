@@ -41,6 +41,7 @@ Output: [0,1]
 Can you come up with an algorithm that is less than `O(n^2)` time complexity?
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
