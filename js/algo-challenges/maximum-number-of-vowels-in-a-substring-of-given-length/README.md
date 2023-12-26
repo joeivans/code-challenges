@@ -34,6 +34,7 @@ Explanation: "lee", "eet" and "ode" contain 2 vowels.
 - `1 <= k <= s.length`
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
