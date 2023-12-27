@@ -56,7 +56,8 @@ myLinkedList.get(1);              // return 3
 `addAtIndex` and `deleteAtIndex`.
 
 ## Whiteboard
-![Whiteboard Image][whiteboard-image]
+Attempt 1:
+![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
-[whiteboard-image]: whiteboard.jpg
+[whiteboard-image-01]: whiteboard-01.jpg
