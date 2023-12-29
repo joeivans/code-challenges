@@ -33,6 +33,7 @@ Output: 0
 - `text` consists of lower case English letters only.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
