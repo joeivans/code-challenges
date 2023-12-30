@@ -46,6 +46,7 @@ Output: 66
 Could you solve this problem in O(n) time complexity?
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
