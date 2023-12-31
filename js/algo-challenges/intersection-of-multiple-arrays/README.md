@@ -32,6 +32,7 @@ return an empty list [].
 - All the values of `nums[i]` are unique.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
