@@ -34,6 +34,7 @@ Output: ['q']
 - `1 <= k <= 10^4`
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
