@@ -35,6 +35,7 @@ Output: [1]
 **Follow up:** Could you do this in one pass?
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
