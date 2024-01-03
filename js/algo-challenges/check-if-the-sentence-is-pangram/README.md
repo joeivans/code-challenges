@@ -29,6 +29,7 @@ Output: false
 - `sentence` consists of lowercase English letters.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
