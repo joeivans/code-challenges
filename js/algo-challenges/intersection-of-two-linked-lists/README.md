@@ -60,6 +60,7 @@ The two lists do not intersect, so return null.
 only `O(1)` memory?
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
