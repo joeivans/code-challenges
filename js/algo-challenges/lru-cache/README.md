@@ -47,6 +47,7 @@ lRUCache.get(4);    // return 4
 - At most `2 * 10^5` calls will be made to `get` and `put`.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
