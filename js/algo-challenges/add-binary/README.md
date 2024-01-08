@@ -24,6 +24,7 @@ Output: "10101"
 - Each string does not contain leading zeros except for the zero itself.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
