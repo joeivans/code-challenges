@@ -33,6 +33,7 @@ Output: [1,2,1,2]
 - 1 <= nums[i] <= 10^3
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
