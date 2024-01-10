@@ -24,6 +24,7 @@ Output: 2
 - `nums[i]` is either `0` or `1`
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
