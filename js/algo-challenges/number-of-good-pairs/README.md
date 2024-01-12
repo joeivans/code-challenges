@@ -33,6 +33,7 @@ Output: 0
 - 1 <= nums[i] <= 100
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
