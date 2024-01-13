@@ -35,6 +35,7 @@ In this example, the second and third sentences (underlined) have the same numbe
 - All the words in `sentences[i]` are separated by a single space.
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
