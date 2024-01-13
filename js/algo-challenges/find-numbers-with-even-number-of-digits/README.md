@@ -32,6 +32,7 @@ Only 1771 contains an even number of digits.
 - `1 <= nums[i] <= 10^5`
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
