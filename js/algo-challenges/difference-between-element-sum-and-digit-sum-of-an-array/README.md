@@ -35,6 +35,7 @@ The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 - 1 <= nums[i] <= 2000
 
 ## Whiteboard
+Attempt 1:
 ![Whiteboard Image 01][whiteboard-image-01]
 
 <!-- Refs -->
